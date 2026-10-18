@@ -1,0 +1,157 @@
+{
+  "_comment": "Mock response for GET /state?minute=3 (normal egress, before approval), from the real server on 18 Oct. Densities are sensor estimates.",
+  "minute": 3,
+  "scenario": {
+    "id": "normal",
+    "title": "Normal egress",
+    "description": "70,000 people leave the Coliseum after the final whistle."
+  },
+  "incidents": [],
+  "sensors": {
+    "bluetooth_total": 10,
+    "bluetooth_online": 10,
+    "bluetooth_missed_now": 0,
+    "offline_zones": [],
+    "ticket_scans": 69870,
+    "last_train_minute": null,
+    "detection_rate": 0.3
+  },
+  "approved_plan": null,
+  "approved_minute": null,
+  "zones": [
+    {
+      "id": "gate_N",
+      "label": "North gates",
+      "sensor": "ok",
+      "density_now": 1.36,
+      "occupancy_now": 1085,
+      "level_now": "normal",
+      "predicted_density": 3.03,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "gate_E",
+      "label": "East gates",
+      "sensor": "ok",
+      "density_now": 0.8,
+      "occupancy_now": 636,
+      "level_now": "normal",
+      "predicted_density": 0.71,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "gate_S",
+      "label": "South gates",
+      "sensor": "ok",
+      "density_now": 0.65,
+      "occupancy_now": 524,
+      "level_now": "normal",
+      "predicted_density": 0.55,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "gate_W",
+      "label": "West gates",
+      "sensor": "ok",
+      "density_now": 0.66,
+      "occupancy_now": 529,
+      "level_now": "normal",
+      "predicted_density": 0.55,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "plaza_N",
+      "label": "North plaza / Rose Garden",
+      "sensor": "ok",
+      "density_now": 0.16,
+      "occupancy_now": 1310,
+      "level_now": "normal",
+      "predicted_density": 0.21,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "plaza_S",
+      "label": "South plaza",
+      "sensor": "ok",
+      "density_now": 0.15,
+      "occupancy_now": 1058,
+      "level_now": "normal",
+      "predicted_density": 0.23,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "walkway_station",
+      "label": "Walkway to Expo Park/USC station",
+      "sensor": "ok",
+      "density_now": 0.51,
+      "occupancy_now": 766,
+      "level_now": "normal",
+      "predicted_density": 4.64,
+      "predicted_minute": 18,
+      "alert_band": "caution"
+    },
+    {
+      "id": "station_platform",
+      "label": "Expo Park/USC platform",
+      "sensor": "ok",
+      "density_now": 0.15,
+      "occupancy_now": 184,
+      "level_now": "normal",
+      "predicted_density": 4.67,
+      "predicted_minute": 18,
+      "alert_band": "caution"
+    },
+    {
+      "id": "shuttle_stop",
+      "label": "Shuttle bus loading",
+      "sensor": "ok",
+      "density_now": 0.14,
+      "occupancy_now": 432,
+      "level_now": "normal",
+      "predicted_density": 2.09,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    },
+    {
+      "id": "parking_exit",
+      "label": "Parking lots / Vermont Ave",
+      "sensor": "ok",
+      "density_now": 0.07,
+      "occupancy_now": 666,
+      "level_now": "normal",
+      "predicted_density": 0.86,
+      "predicted_minute": 18,
+      "alert_band": "ok"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "walkway_station",
+      "label": "Walkway to Expo Park/USC station",
+      "sensor": "ok",
+      "density_now": 0.51,
+      "occupancy_now": 766,
+      "level_now": "normal",
+      "predicted_density": 4.64,
+      "predicted_minute": 18,
+      "alert_band": "caution"
+    },
+    {
+      "id": "station_platform",
+      "label": "Expo Park/USC platform",
+      "sensor": "ok",
+      "density_now": 0.15,
+      "occupancy_now": 184,
+      "level_now": "normal",
+      "predicted_density": 4.67,
+      "predicted_minute": 18,
+      "alert_band": "caution"
+    }
+  ]
+}

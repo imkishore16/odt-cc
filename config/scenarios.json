@@ -1,0 +1,45 @@
+{
+  "normal": {
+    "title": "Normal egress",
+    "description": "70,000 people leave the Coliseum after the final whistle.",
+    "incidents": []
+  },
+  "expo_line_delay": {
+    "title": "Expo Line delay",
+    "description": "E Line signal failure: no trains leave Expo Park/USC from minute 10 to minute 25.",
+    "incidents": [
+      {
+        "type": "capacity",
+        "node": "station_platform",
+        "factor": 0.0,
+        "from": 10,
+        "to": 25
+      }
+    ]
+  },
+  "bmo_event": {
+    "title": "BMO Stadium event",
+    "description": "An event at BMO Stadium lets out: about 400 extra people per minute join the station walkway from minute 15 to minute 35.",
+    "incidents": [
+      {
+        "type": "inflow",
+        "node": "walkway_station",
+        "per_min": 400,
+        "from": 15,
+        "to": 35
+      }
+    ]
+  },
+  "sensor_outage": {
+    "title": "Walkway sensor outage",
+    "description": "The Bluetooth counters on the station walkway are out of service from the final whistle (minute 0 to 60). The crowd itself is the same as normal egress.",
+    "incidents": [
+      {
+        "type": "sensor_outage",
+        "node": "walkway_station",
+        "from": 0,
+        "to": 60
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "venue": "LA Memorial Coliseum / Exposition Park (schematic demo slice)",
+  "attendance": 70000,
+  "notes": "Positions are schematic metres from the stadium centre, not survey-accurate. All capacities are synthetic and tunable.",
+  "nodes": [
+    {"id": "stadium",          "label": "Coliseum bowl",          "type": "venue",   "x": 0,    "y": 0,    "outflow_per_min": 2500,
+     "routes": {"gate_N": 0.35, "gate_E": 0.25, "gate_S": 0.20, "gate_W": 0.20}},
+
+    {"id": "gate_N",           "label": "North gates",            "type": "gate",    "x": 0,    "y": 180,  "area_m2": 800,  "outflow_per_min": 750,
+     "routes": {"plaza_N": 1.0}},
+    {"id": "gate_E",           "label": "East gates",             "type": "gate",    "x": 200,  "y": 0,    "area_m2": 800,  "outflow_per_min": 650,
+     "routes": {"plaza_N": 1.0}},
+    {"id": "gate_S",           "label": "South gates",            "type": "gate",    "x": 0,    "y": -180, "area_m2": 800,  "outflow_per_min": 650,
+     "routes": {"plaza_S": 1.0}},
+    {"id": "gate_W",           "label": "West gates",             "type": "gate",    "x": -200, "y": 0,    "area_m2": 800,  "outflow_per_min": 650,
+     "routes": {"plaza_S": 1.0}},
+
+    {"id": "plaza_N",          "label": "North plaza / Rose Garden", "type": "plaza", "x": 120,  "y": 320,  "area_m2": 8000, "outflow_per_min": 1500,
+     "routes": {"walkway_station": 0.6, "shuttle_stop": 0.4}},
+    {"id": "plaza_S",          "label": "South plaza",            "type": "plaza",   "x": -60,  "y": -340, "area_m2": 7000, "outflow_per_min": 1400,
+     "routes": {"walkway_station": 0.2, "parking_exit": 0.8}},
+
+    {"id": "walkway_station",  "label": "Walkway to Expo Park/USC station", "type": "walkway", "x": 300, "y": 450, "area_m2": 1500, "outflow_per_min": 600,
+     "routes": {"station_platform": 1.0}},
+    {"id": "station_platform", "label": "Expo Park/USC platform", "type": "transit", "x": 420,  "y": 520,  "area_m2": 1200,
+     "train_interval_min": 4, "per_train": 1000},
+    {"id": "shuttle_stop",     "label": "Shuttle bus loading",    "type": "transit", "x": -150, "y": 420,  "area_m2": 3000, "outflow_per_min": 150},
+    {"id": "parking_exit",     "label": "Parking lots / Vermont Ave", "type": "road", "x": -300, "y": -450, "area_m2": 10000, "outflow_per_min": 300}
+  ]
+}

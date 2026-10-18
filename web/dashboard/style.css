@@ -1,0 +1,60 @@
+:root {
+  --bg: #15171a; --panel: #1f2226; --line: #33373d; --text: #e8eaed; --muted: #9aa0a6;
+  --green: #3fb950; --amber: #f0a020; --red: #e5484d; --blue: #4c8dff;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; }
+h2 { margin: 0 0 8px; font-size: 18px; }
+h3 { margin: 18px 0 6px; font-size: 15px; }
+h4 { margin: 12px 0 4px; font-size: 14px; color: var(--amber); }
+small { color: var(--muted); font-weight: normal; font-size: 12px; }
+.muted { color: var(--muted); font-size: 13px; }
+.desc { margin: 0 16px 8px; }
+button { background: #2d3238; color: var(--text); border: 1px solid var(--line); border-radius: 6px;
+         padding: 6px 12px; cursor: pointer; font: inherit; }
+button:hover:not(:disabled) { border-color: var(--blue); }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: #2a6b35; border-color: var(--green); }
+select, input[type=range] { background: #2d3238; color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+select { padding: 4px 6px; }
+.topbar { display: flex; align-items: center; gap: 24px; padding: 10px 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.brand { font-weight: 700; font-size: 18px; }
+.brand span { color: var(--muted); font-weight: normal; font-size: 13px; margin-left: 8px; }
+.clock { display: flex; align-items: baseline; gap: 8px; }
+.clock span { font-size: 26px; font-weight: 600; }
+.controls { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+.badge { border: 1px solid var(--line); border-radius: 12px; padding: 2px 10px; font-size: 12px; color: var(--muted); }
+.badge.kit { color: var(--green); border-color: var(--green); }
+.badge.standalone { color: var(--amber); border-color: var(--amber); }
+.bar { display: flex; gap: 16px; align-items: center; padding: 8px 16px; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; padding: 0 16px 24px; }
+@media (max-width: 1100px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0; align-items: center; }
+.banner { margin: 0 16px 8px; padding: 10px 14px; border-radius: 8px; font-weight: 600; text-align: center; }
+.banner.red { background: var(--red); } .banner.amber { background: #a86a0a; } .banner.green { background: #2a6b35; }
+.countdown { margin: 0 16px 8px; font-size: 17px; color: var(--amber); }
+.countdown.late { color: var(--red); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: var(--muted); font-weight: normal; padding: 4px 6px; border-bottom: 1px solid var(--line); }
+td { padding: 4px 6px; border-bottom: 1px solid #262a2f; vertical-align: top; }
+.ok { color: var(--green); } .caution { color: var(--amber); } .danger { color: var(--red); }
+.SAFE { color: var(--green); } .MARGINAL { color: var(--amber); } .UNSAFE { color: var(--red); }
+.barcell { width: 32%; }
+.bar-bg { position: relative; height: 10px; background: #2b2f35; border-radius: 5px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 5px; }
+.bar-line { position: absolute; top: 0; bottom: 0; width: 2px; background: #fff8; }
+.card { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 8px 0; background: #22262b; }
+.card.pick { border-color: var(--green); }
+.card .head { display: flex; justify-content: space-between; align-items: baseline; }
+.card .score { font-size: 20px; font-weight: 700; }
+.why { color: var(--green); margin: 2px 0; }
+.why.escalate { color: var(--red); font-weight: 600; }
+.lever { display: grid; grid-template-columns: 210px 1fr 64px; gap: 8px; align-items: center; margin: 4px 0; }
+.lever input { width: 100%; }
+.lever output { text-align: right; font-variant-numeric: tabular-nums; }
+.log div { font-size: 12px; padding: 2px 0; border-bottom: 1px solid #262a2f; }
+.log .approval, .log .keep { color: var(--green); } .log .incident, .log .detection { color: var(--red); }
+.log .incident_update { color: var(--amber); }
+.feed div { font-size: 13px; padding: 3px 0; }
+.feed .new { color: var(--red); } .feed .still { color: var(--amber); } .feed .cleared { color: var(--green); }

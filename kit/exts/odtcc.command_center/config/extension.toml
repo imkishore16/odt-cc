@@ -1,0 +1,24 @@
+[package]
+title = "ODT-CC Command Center"
+version = "0.1.0"
+description = "Crowd-safety command center for the LA28 Coliseum twin: live forecast, Nemotron action card, operator approval."
+category = "Simulation"
+keywords = ["odtcc", "crowd", "digital twin"]
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.ui" = {}
+"omni.usd" = {}
+"omni.timeline" = {}
+"omni.kit.viewport.utility" = {}
+
+[settings]
+# Brain service (odtcc/server.py). mock = true serves the JSON in mock/ instead (no server needed);
+# the ODTCC_MOCK=1 environment variable does the same.
+exts."odtcc.command_center".server_url = "http://localhost:8000"
+exts."odtcc.command_center".mock = false
+# Stage to open at startup; empty = <project>/usd/twin_live.usda
+exts."odtcc.command_center".open_stage = ""
+
+[[python.module]]
+name = "odtcc.command_center"

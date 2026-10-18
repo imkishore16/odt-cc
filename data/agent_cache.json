@@ -1,0 +1,163 @@
+{
+  "minute": 3,
+  "no_change": false,
+  "scenario": "normal",
+  "incident": null,
+  "no_fully_safe_plan": false,
+  "source": "nemotron-local",
+  "latency_s": 1.77,
+  "alerts": [
+    {
+      "zone": "station_platform",
+      "label": "Expo Park/USC platform",
+      "density_now": 0.15,
+      "predicted_density": 4.67,
+      "predicted_minute": 18,
+      "alert": true
+    },
+    {
+      "zone": "walkway_station",
+      "label": "Walkway to Expo Park/USC station",
+      "density_now": 0.51,
+      "predicted_density": 4.64,
+      "predicted_minute": 18,
+      "alert": true
+    }
+  ],
+  "do_nothing": {
+    "dangerous_zone_minutes": 99,
+    "peak_density": 6.44,
+    "peak_zone": "Walkway to Expo Park/USC station",
+    "stadium_cleared_by_min": 28
+  },
+  "baseline_label": "doing nothing",
+  "plans_in_force": [],
+  "recommended": "most_margin",
+  "plan": {
+    "stadium_release_per_min": 800,
+    "train_interval_min": 2,
+    "shuttle_outflow_per_min": 375,
+    "north_to_shuttle_share": 0.7
+  },
+  "actions": [
+    "[LA28 Venue Ops] Hold crowd in the bowl: release 800 people/min (normally 2,500)",
+    "[LA Metro] Run a train every 2 min (normally every 4)",
+    "[LA28 Transport / LADOT] Add shuttle buses: 375 people/min (normally 150)",
+    "[Venue stewards / LAPD] Steer 70% of the north plaza to shuttles (normally 40%)"
+  ],
+  "expected": {
+    "dangerous_zone_minutes": 0,
+    "peak_density": 0.98,
+    "peak_zone": "Expo Park/USC platform",
+    "stadium_cleared_by_min": 81,
+    "effort_0_to_5": 3.5
+  },
+  "approve_by_minute": 14,
+  "briefing": "The forecaster raised an alert at minute 3: two zones (station platform and walkway to Expo Park/USC station) are predicted to reach density 4.6\u20114.7 by minute 18, approaching the 5\u2011person/m\u00b2 danger threshold. The most\u2011margin plan releases 800 people/min into the transit system, runs trains every 2 minutes, adds 375 shuttle buses/min, and steers 70% of north\u2011plaza patrons to shuttles. It keeps peak density at 0.98, avoids any dangerous\u2011zone minutes, and clears the stadium by minute 81. You have until minute 14 to approve.",
+  "reason": "It delivers the highest safety margin (peak density 0.98 vs the 5\u2011person threshold) while keeping the stadium clear in a reasonable 81 minutes, and the operator still has 11 minutes to approve.",
+  "why": [
+    "Prevents all 99 dangerous zone-minutes (doing nothing peaks at 6.44 people/m\u00b2)",
+    "Peak 0.98 people/m\u00b2 at Expo Park/USC platform: the lowest of the 3 safe options",
+    "Held up in 5/5 noise runs; approve by minute 14 (11 min from now)"
+  ],
+  "trade_off": [
+    "Stadium clears at minute 81 (doing nothing: minute 28)",
+    "vs least effort: clears at minute 81, peak 3.93, effort 1.5 (this plan: 3.5)",
+    "vs fastest clear: clears at minute 34, peak 4.78, effort 1.79 (this plan: 3.5)"
+  ],
+  "options": {
+    "least_effort": {
+      "levers": {
+        "stadium_release_per_min": 800,
+        "train_interval_min": 3
+      },
+      "actions": [
+        "[LA28 Venue Ops] Hold crowd in the bowl: release 800 people/min (normally 2,500)",
+        "[LA Metro] Run a train every 3 min (normally every 4)"
+      ],
+      "score_0_to_100": 35,
+      "score_parts": {
+        "safety": 10,
+        "speed": 8,
+        "ease": 14,
+        "time_to_act": 3
+      },
+      "dangerous_zone_minutes": 0,
+      "peak_density": 3.93,
+      "peak_zone": "Expo Park/USC platform",
+      "stadium_cleared_by_min": 81,
+      "effort_0_to_5": 1.5,
+      "extra_trains_per_hour": 5.0,
+      "extra_buses_est": 0,
+      "approve_by_minute": 5,
+      "minutes_left_to_approve": 2,
+      "extra_minutes_to_clear_vs_do_nothing": 53,
+      "safe_in_noise_runs": "5/5"
+    },
+    "most_margin": {
+      "levers": {
+        "stadium_release_per_min": 800,
+        "train_interval_min": 2,
+        "shuttle_outflow_per_min": 375,
+        "north_to_shuttle_share": 0.7
+      },
+      "actions": [
+        "[LA28 Venue Ops] Hold crowd in the bowl: release 800 people/min (normally 2,500)",
+        "[LA Metro] Run a train every 2 min (normally every 4)",
+        "[LA28 Transport / LADOT] Add shuttle buses: 375 people/min (normally 150)",
+        "[Venue stewards / LAPD] Steer 70% of the north plaza to shuttles (normally 40%)"
+      ],
+      "score_0_to_100": 65,
+      "score_parts": {
+        "safety": 36,
+        "speed": 8,
+        "ease": 6,
+        "time_to_act": 15
+      },
+      "dangerous_zone_minutes": 0,
+      "peak_density": 0.98,
+      "peak_zone": "Expo Park/USC platform",
+      "stadium_cleared_by_min": 81,
+      "effort_0_to_5": 3.5,
+      "extra_trains_per_hour": 15.0,
+      "extra_buses_est": 56,
+      "approve_by_minute": 14,
+      "minutes_left_to_approve": 11,
+      "extra_minutes_to_clear_vs_do_nothing": 53,
+      "safe_in_noise_runs": "5/5"
+    },
+    "fastest_clear": {
+      "levers": {
+        "stadium_release_per_min": 2000,
+        "train_interval_min": 2,
+        "north_to_shuttle_share": 0.5,
+        "east_to_south_share": 0.2
+      },
+      "actions": [
+        "[LA28 Venue Ops] Hold crowd in the bowl: release 2,000 people/min (normally 2,500)",
+        "[LA Metro] Run a train every 2 min (normally every 4)",
+        "[Venue stewards / LAPD] Steer 50% of the north plaza to shuttles (normally 40%)",
+        "[Venue stewards / LAPD] Send 20% of east-gate exits south (normally 0%)"
+      ],
+      "score_0_to_100": 38,
+      "score_parts": {
+        "safety": 2,
+        "speed": 19,
+        "ease": 13,
+        "time_to_act": 4
+      },
+      "dangerous_zone_minutes": 0,
+      "peak_density": 4.78,
+      "peak_zone": "Shuttle bus loading",
+      "stadium_cleared_by_min": 34,
+      "effort_0_to_5": 1.79,
+      "extra_trains_per_hour": 15.0,
+      "extra_buses_est": 0,
+      "approve_by_minute": 6,
+      "minutes_left_to_approve": 3,
+      "extra_minutes_to_clear_vs_do_nothing": 6,
+      "safe_in_noise_runs": "5/5"
+    }
+  },
+  "requires_approval": true
+}

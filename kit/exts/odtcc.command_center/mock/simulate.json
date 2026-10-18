@@ -1,0 +1,42 @@
+{
+  "_comment": "Mock response for POST /simulate: an operator plan that only doubles the trains (UNSAFE).",
+  "minute": 2,
+  "plan": {
+    "train_interval_min": 2
+  },
+  "actions": [
+    "[LA Metro] Run a train every 2 min (normally every 4)"
+  ],
+  "verdict": "UNSAFE",
+  "score": {
+    "dangerous_zone_minutes": 22,
+    "zones_ever_dangerous": 2,
+    "peak_density": 6.0,
+    "peak_zone": "walkway_station",
+    "people_minutes_in_danger": 183275,
+    "stadium_cleared_by_min": 28
+  },
+  "peak_zone_label": "Walkway to Expo Park/USC station",
+  "first_danger": {
+    "zone": "walkway_station",
+    "label": "Walkway to Expo Park/USC station",
+    "minute": 18
+  },
+  "cost": {
+    "effort": 1.0,
+    "extra_trains_per_hour": 15.0,
+    "extra_shuttle_capacity_per_min": 0,
+    "extra_buses_est": 0,
+    "holds_crowd_in_bowl": false,
+    "redirects_crowd": false
+  },
+  "approve_by_minute": null,
+  "baseline_score": {
+    "dangerous_zone_minutes": 99,
+    "zones_ever_dangerous": 4,
+    "peak_density": 6.44,
+    "peak_zone": "walkway_station",
+    "people_minutes_in_danger": 807516,
+    "stadium_cleared_by_min": 28
+  }
+}

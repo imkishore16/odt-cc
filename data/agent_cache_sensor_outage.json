@@ -1,0 +1,162 @@
+{
+  "minute": 4,
+  "no_change": false,
+  "scenario": "sensor_outage",
+  "incident": {
+    "scenario": "Walkway sensor outage",
+    "description": "The Bluetooth counters on the station walkway are out of service from the final whistle (minute 0 to 60). The crowd itself is the same as normal egress."
+  },
+  "no_fully_safe_plan": false,
+  "source": "nemotron-local",
+  "latency_s": 2.55,
+  "alerts": [
+    {
+      "zone": "station_platform",
+      "label": "Expo Park/USC platform",
+      "density_now": 0.31,
+      "predicted_density": 4.56,
+      "predicted_minute": 19,
+      "alert": true
+    }
+  ],
+  "do_nothing": {
+    "dangerous_zone_minutes": 99,
+    "peak_density": 6.44,
+    "peak_zone": "Walkway to Expo Park/USC station",
+    "stadium_cleared_by_min": 28
+  },
+  "baseline_label": "doing nothing",
+  "plans_in_force": [],
+  "recommended": "most_margin",
+  "plan": {
+    "stadium_release_per_min": 800,
+    "train_interval_min": 2,
+    "shuttle_outflow_per_min": 375,
+    "north_to_shuttle_share": 0.8,
+    "east_to_south_share": 0.2
+  },
+  "actions": [
+    "[LA28 Venue Ops] Hold crowd in the bowl: release 800 people/min (normally 2,500)",
+    "[LA Metro] Run a train every 2 min (normally every 4)",
+    "[LA28 Transport / LADOT] Add shuttle buses: 375 people/min (normally 150)",
+    "[Venue stewards / LAPD] Steer 80% of the north plaza to shuttles (normally 40%)",
+    "[Venue stewards / LAPD] Send 20% of east-gate exits south (normally 0%)"
+  ],
+  "expected": {
+    "dangerous_zone_minutes": 0,
+    "peak_density": 1.09,
+    "peak_zone": "North gates",
+    "stadium_cleared_by_min": 78,
+    "effort_0_to_5": 4.0
+  },
+  "approve_by_minute": 14,
+  "briefing": "The forecaster alert is at minute 4 with a predicted peak density of 4.56 on the station platform and 4.12 on the walkway. The most_margin option holds the crowd at 800/min release, adds 15 extra trains per hour, boosts shuttle outflow to 375/min, and steers 80% of the north plaza to shuttles plus 20% of east-gate exits south. It clears the stadium by minute 78 and keeps peak density at 1.09, well below the 5.0 danger threshold. The operator must approve by minute 14 (10 minutes from now).",
+  "reason": "It provides the greatest safety margin by keeping peak density far under 5.0 while still clearing the stadium in a reasonable 78 minutes, and it copes with the walkway sensor outage by redistributing north\u2011plaza and east\u2011gate flow onto shuttles and the south\u2011bound gate route.",
+  "why": [
+    "Prevents all 99 dangerous zone-minutes (doing nothing peaks at 6.44 people/m\u00b2)",
+    "Peak 1.09 people/m\u00b2 at North gates: the lowest of the 3 safe options",
+    "Held up in 5/5 noise runs; approve by minute 14 (10 min from now)"
+  ],
+  "trade_off": [
+    "Stadium clears at minute 78 (doing nothing: minute 28)",
+    "vs least effort: clears at minute 78, peak 4.47, effort 1.5 (this plan: 4.0)",
+    "vs fastest clear: clears at minute 33, peak 4.8, effort 1.79 (this plan: 4.0)"
+  ],
+  "options": {
+    "least_effort": {
+      "levers": {
+        "stadium_release_per_min": 800,
+        "north_to_shuttle_share": 0.6
+      },
+      "actions": [
+        "[LA28 Venue Ops] Hold crowd in the bowl: release 800 people/min (normally 2,500)",
+        "[Venue stewards / LAPD] Steer 60% of the north plaza to shuttles (normally 40%)"
+      ],
+      "score_0_to_100": 31,
+      "score_parts": {
+        "safety": 5,
+        "speed": 9,
+        "ease": 14,
+        "time_to_act": 3
+      },
+      "dangerous_zone_minutes": 0,
+      "peak_density": 4.47,
+      "peak_zone": "Shuttle bus loading",
+      "stadium_cleared_by_min": 78,
+      "effort_0_to_5": 1.5,
+      "extra_trains_per_hour": 0.0,
+      "extra_buses_est": 0,
+      "approve_by_minute": 6,
+      "minutes_left_to_approve": 2,
+      "extra_minutes_to_clear_vs_do_nothing": 50,
+      "safe_in_noise_runs": "5/5"
+    },
+    "most_margin": {
+      "levers": {
+        "stadium_release_per_min": 800,
+        "train_interval_min": 2,
+        "shuttle_outflow_per_min": 375,
+        "north_to_shuttle_share": 0.8,
+        "east_to_south_share": 0.2
+      },
+      "actions": [
+        "[LA28 Venue Ops] Hold crowd in the bowl: release 800 people/min (normally 2,500)",
+        "[LA Metro] Run a train every 2 min (normally every 4)",
+        "[LA28 Transport / LADOT] Add shuttle buses: 375 people/min (normally 150)",
+        "[Venue stewards / LAPD] Steer 80% of the north plaza to shuttles (normally 40%)",
+        "[Venue stewards / LAPD] Send 20% of east-gate exits south (normally 0%)"
+      ],
+      "score_0_to_100": 63,
+      "score_parts": {
+        "safety": 35,
+        "speed": 9,
+        "ease": 4,
+        "time_to_act": 15
+      },
+      "dangerous_zone_minutes": 0,
+      "peak_density": 1.09,
+      "peak_zone": "North gates",
+      "stadium_cleared_by_min": 78,
+      "effort_0_to_5": 4.0,
+      "extra_trains_per_hour": 15.0,
+      "extra_buses_est": 56,
+      "approve_by_minute": 14,
+      "minutes_left_to_approve": 10,
+      "extra_minutes_to_clear_vs_do_nothing": 50,
+      "safe_in_noise_runs": "5/5"
+    },
+    "fastest_clear": {
+      "levers": {
+        "stadium_release_per_min": 2000,
+        "train_interval_min": 2,
+        "north_to_shuttle_share": 0.5,
+        "east_to_south_share": 0.2
+      },
+      "actions": [
+        "[LA28 Venue Ops] Hold crowd in the bowl: release 2,000 people/min (normally 2,500)",
+        "[LA Metro] Run a train every 2 min (normally every 4)",
+        "[Venue stewards / LAPD] Steer 50% of the north plaza to shuttles (normally 40%)",
+        "[Venue stewards / LAPD] Send 20% of east-gate exits south (normally 0%)"
+      ],
+      "score_0_to_100": 37,
+      "score_parts": {
+        "safety": 2,
+        "speed": 19,
+        "ease": 13,
+        "time_to_act": 3
+      },
+      "dangerous_zone_minutes": 0,
+      "peak_density": 4.8,
+      "peak_zone": "Shuttle bus loading",
+      "stadium_cleared_by_min": 33,
+      "effort_0_to_5": 1.79,
+      "extra_trains_per_hour": 15.0,
+      "extra_buses_est": 0,
+      "approve_by_minute": 6,
+      "minutes_left_to_approve": 2,
+      "extra_minutes_to_clear_vs_do_nothing": 5,
+      "safe_in_noise_runs": "5/5"
+    }
+  },
+  "requires_approval": true
+}

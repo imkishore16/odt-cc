@@ -1,0 +1,849 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    framesPerSecond = 4
+    metersPerUnit = 1
+    timeCodesPerSecond = 4
+    upAxis = "Z"
+)
+
+def Xform "World" (
+    customData = {
+        dictionary odtcc = {
+            string venue = "LA Memorial Coliseum / Exposition Park (schematic demo slice)"
+        }
+    }
+)
+{
+    def Cube "Ground"
+    {
+        color3f[] primvars:displayColor = [(0.25, 0.27, 0.3)]
+        double size = 1
+        float3 xformOp:scale = (1400, 1400, 1)
+        double3 xformOp:translate = (0, 0, -0.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def DistantLight "Sun"
+    {
+        float inputs:intensity = 1000
+        float3 xformOp:rotateXYZ = (-45, 0, 30)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+    }
+
+    def DomeLight "Sky"
+    {
+        float inputs:intensity = 150
+    }
+
+    def Scope "Paths"
+    {
+        def Cube "stadium_to_gate_N"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 90)
+            float3 xformOp:scale = (180, 12, 0.4)
+            double3 xformOp:translate = (0, 90, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "stadium_to_gate_E"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 0)
+            float3 xformOp:scale = (200, 12, 0.4)
+            double3 xformOp:translate = (100, 0, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "stadium_to_gate_S"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, -90)
+            float3 xformOp:scale = (180, 12, 0.4)
+            double3 xformOp:translate = (0, -90, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "stadium_to_gate_W"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 180)
+            float3 xformOp:scale = (200, 12, 0.4)
+            double3 xformOp:translate = (-100, 0, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "gate_N_to_plaza_N"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 49.398705)
+            float3 xformOp:scale = (184.39088, 12, 0.4)
+            double3 xformOp:translate = (60, 250, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "gate_E_to_plaza_N"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 104.03625)
+            float3 xformOp:scale = (329.84845, 12, 0.4)
+            double3 xformOp:translate = (160, 160, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "gate_S_to_plaza_S"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, -110.556046)
+            float3 xformOp:scale = (170.88008, 12, 0.4)
+            double3 xformOp:translate = (-30, -260, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "gate_W_to_plaza_S"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, -67.619865)
+            float3 xformOp:scale = (367.69553, 12, 0.4)
+            double3 xformOp:translate = (-130, -170, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "plaza_N_to_walkway_station"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 35.837654)
+            float3 xformOp:scale = (222.03603, 12, 0.4)
+            double3 xformOp:translate = (210, 385, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "plaza_N_to_shuttle_stop"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 159.67686)
+            float3 xformOp:scale = (287.9236, 12, 0.4)
+            double3 xformOp:translate = (-15, 370, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "plaza_S_to_walkway_station"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 65.50143)
+            float3 xformOp:scale = (868.159, 12, 0.4)
+            double3 xformOp:translate = (120, 55, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "plaza_S_to_parking_exit"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, -155.37643)
+            float3 xformOp:scale = (264.00757, 12, 0.4)
+            double3 xformOp:translate = (-180, -395, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        def Cube "walkway_station_to_station_platform"
+        {
+            color3f[] primvars:displayColor = [(0.45, 0.45, 0.48)]
+            double size = 1
+            float3 xformOp:rotateXYZ = (0, 0, 30.256437)
+            float3 xformOp:scale = (138.92444, 12, 0.4)
+            double3 xformOp:translate = (360, 485, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+    }
+
+    def Scope "Looks"
+    {
+        def Material "gate_N"
+        {
+            token outputs:surface.connect = </World/Looks/gate_N/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "gate_E"
+        {
+            token outputs:surface.connect = </World/Looks/gate_E/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "gate_S"
+        {
+            token outputs:surface.connect = </World/Looks/gate_S/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "gate_W"
+        {
+            token outputs:surface.connect = </World/Looks/gate_W/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "plaza_N"
+        {
+            token outputs:surface.connect = </World/Looks/plaza_N/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "plaza_S"
+        {
+            token outputs:surface.connect = </World/Looks/plaza_S/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "walkway_station"
+        {
+            token outputs:surface.connect = </World/Looks/walkway_station/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "station_platform"
+        {
+            token outputs:surface.connect = </World/Looks/station_platform/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "shuttle_stop"
+        {
+            token outputs:surface.connect = </World/Looks/shuttle_stop/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+
+        def Material "parking_exit"
+        {
+            token outputs:surface.connect = </World/Looks/parking_exit/Shader.outputs:surface>
+
+            def Shader "Shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.15, 0.65, 0.3)
+                float inputs:roughness = 0.6
+                token outputs:surface
+            }
+        }
+    }
+
+    def Scope "Zones"
+    {
+        def Xform "stadium" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "Coliseum bowl"
+                    string type = "venue"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cylinder "Bowl"
+            {
+                double height = 30
+                color3f[] primvars:displayColor = [(0.75, 0.72, 0.65)]
+                double radius = 140
+                double3 xformOp:translate = (0, 0, 15)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Cylinder "CrowdInside"
+            {
+                double height = 1
+                color3f[] primvars:displayColor = [(0.25, 0.45, 0.95)]
+                double radius = 110
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 30)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "gate_N" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "North gates"
+                    string type = "gate"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (0, 180, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/gate_N>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (28.284271, 28.284271, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/gate_N>
+                double radius = 7.0710678118654755
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "gate_E" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "East gates"
+                    string type = "gate"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (200, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/gate_E>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (28.284271, 28.284271, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/gate_E>
+                double radius = 7.0710678118654755
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "gate_S" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "South gates"
+                    string type = "gate"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (0, -180, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/gate_S>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (28.284271, 28.284271, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/gate_S>
+                double radius = 7.0710678118654755
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "gate_W" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "West gates"
+                    string type = "gate"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (-200, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/gate_W>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (28.284271, 28.284271, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/gate_W>
+                double radius = 7.0710678118654755
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "plaza_N" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "North plaza / Rose Garden"
+                    string type = "plaza"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (120, 320, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/plaza_N>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (89.44272, 89.44272, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/plaza_N>
+                double radius = 20
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "plaza_S" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "South plaza"
+                    string type = "plaza"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (-60, -340, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/plaza_S>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (83.666, 83.666, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/plaza_S>
+                double radius = 20
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "walkway_station" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "Walkway to Expo Park/USC station"
+                    string type = "walkway"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (300, 450, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/walkway_station>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (38.72983, 38.72983, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/walkway_station>
+                double radius = 9.682458365518542
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "station_platform" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "Expo Park/USC platform"
+                    string type = "transit"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (420, 520, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/station_platform>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (34.641018, 34.641018, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/station_platform>
+                double radius = 8.660254037844387
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+            def Cube "Train"
+            {
+                color3f[] primvars:displayColor = [(0.85, 0.85, 0.9)]
+                double size = 1
+                token visibility = "invisible"
+                float3 xformOp:scale = (20, 31.176914, 10)
+                double3 xformOp:translate = (42.32050807568878, 0, 6)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "shuttle_stop" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "Shuttle bus loading"
+                    string type = "transit"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (-150, 420, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/shuttle_stop>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (54.772255, 54.772255, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/shuttle_stop>
+                double radius = 13.693063937629153
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "parking_exit" (
+            customData = {
+                dictionary odtcc = {
+                    string label = "Parking lots / Vermont Ave"
+                    string type = "road"
+                }
+            }
+        )
+        {
+            custom float odtcc:density = 0
+            custom string odtcc:level = "normal"
+            custom int odtcc:occupancy = 0
+            double3 xformOp:translate = (-300, -450, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "Pad" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </World/Looks/parking_exit>
+                color3f[] primvars:displayColor = [(0.15, 0.65, 0.3)]
+                double size = 1
+                float3 xformOp:scale = (100, 100, 2)
+                double3 xformOp:translate = (0, 0, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Cylinder "CrowdPillar" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                double height = 1
+                rel material:binding = </World/Looks/parking_exit>
+                double radius = 20
+                float3 xformOp:scale = (1, 1, 0.01)
+                double3 xformOp:translate = (0, 0, 2)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "IncidentBeacon"
+            {
+                color3f[] primvars:displayColor = [(1, 0.1, 0.1)]
+                double radius = 12
+                token visibility = "invisible"
+                double3 xformOp:translate = (0, 0, 90)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+    }
+
+    def Camera "OverviewCam"
+    {
+        float2 clippingRange = (1, 10000)
+        float focalLength = 24
+        float3 xformOp:rotateXYZ = (55, 0, 10)
+        double3 xformOp:translate = (250, -1100, 750)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+    }
+}
+

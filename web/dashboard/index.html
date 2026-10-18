@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ODT-CC Command Dashboard</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">ODT-CC <span>LA28 Coliseum egress command dashboard</span></div>
+    <div class="clock"><span id="minute">Minute -</span><small>after the final whistle</small></div>
+    <div class="controls">
+      <span id="mode" class="badge">connecting</span>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+  </header>
+
+  <section class="bar">
+    <label>Scenario <select id="scenario"></select></label>
+    <label>View as <select id="view"></select></label>
+    <span id="sensors" class="muted"></span>
+    <span id="status" class="muted"></span>
+  </section>
+  <p id="scenario-desc" class="muted desc"></p>
+  <div id="banners"></div>
+
+  <main class="grid">
+    <section class="panel" id="ops">
+      <h2>Operations</h2>
+      <div id="card"></div>
+      <h3>Zones <small>15-minute forecast from sensor estimates</small></h3>
+      <div id="zones"></div>
+      <h3>Incident feed</h3>
+      <div id="feed"></div>
+      <div id="inject" class="row"></div>
+    </section>
+
+    <section class="panel" id="planning">
+      <h2>Planning</h2>
+      <h3>Your plan</h3>
+      <div id="levers"></div>
+      <div class="row">
+        <button id="simulate">Simulate</button>
+        <button id="copy-ai">Copy AI plan</button>
+        <button id="defaults">Defaults</button>
+      </div>
+      <div id="my-result"></div>
+      <h3>Compare plans <small>planning mode</small></h3>
+      <div class="row">
+        <button id="save-a">Save as Plan A</button>
+        <button id="save-b">Save as Plan B</button>
+        <button id="save-ai">Add AI plan</button>
+      </div>
+      <h4>Planned event <small>applies to every plan compared</small></h4>
+      <div id="planning-inputs"></div>
+      <p id="saved" class="muted"></p>
+      <div class="row">
+        <button id="compare">Compare</button>
+        <button id="clear">Clear</button>
+        <button id="run-live">Run this event live</button>
+      </div>
+      <div id="compare-table"></div>
+      <h3>Decision log</h3>
+      <div id="log"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

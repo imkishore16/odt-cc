@@ -1,0 +1,150 @@
+{
+  "alert_minute": 2,
+  "scenario": "expo_line_delay",
+  "incidents": [
+    {
+      "type": "capacity",
+      "node": "station_platform",
+      "factor": 0.0,
+      "from": 10,
+      "to": 25
+    }
+  ],
+  "base_plans": [],
+  "plans_evaluated": 2250,
+  "safe_plans": 510,
+  "no_fully_safe_plan": false,
+  "sweep_seconds": 1.3,
+  "baseline": {
+    "dangerous_zone_minutes": 129,
+    "zones_ever_dangerous": 4,
+    "peak_density": 6.44,
+    "peak_zone": "walkway_station",
+    "people_minutes_in_danger": 1194586,
+    "stadium_cleared_by_min": 28
+  },
+  "options": {
+    "least_effort": {
+      "plan": {
+        "stadium_release_per_min": 800,
+        "north_to_shuttle_share": 0.6,
+        "east_to_south_share": 0.2
+      },
+      "score": {
+        "dangerous_zone_minutes": 0,
+        "zones_ever_dangerous": 0,
+        "peak_density": 4.67,
+        "peak_zone": "station_platform",
+        "people_minutes_in_danger": 0,
+        "stadium_cleared_by_min": 83
+      },
+      "cost": {
+        "effort": 1.75,
+        "extra_trains_per_hour": 0.0,
+        "extra_shuttle_capacity_per_min": 0,
+        "extra_buses_est": 0,
+        "holds_crowd_in_bowl": true,
+        "redirects_crowd": true
+      },
+      "approval_deadline": 2,
+      "robustness_danger_minutes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "most_margin": {
+      "plan": {
+        "stadium_release_per_min": 800,
+        "train_interval_min": 3,
+        "shuttle_outflow_per_min": 300,
+        "north_to_shuttle_share": 0.8,
+        "east_to_south_share": 0.2
+      },
+      "score": {
+        "dangerous_zone_minutes": 0,
+        "zones_ever_dangerous": 0,
+        "peak_density": 2.4,
+        "peak_zone": "station_platform",
+        "people_minutes_in_danger": 0,
+        "stadium_cleared_by_min": 83
+      },
+      "cost": {
+        "effort": 3.25,
+        "extra_trains_per_hour": 5.0,
+        "extra_shuttle_capacity_per_min": 150,
+        "extra_buses_est": 38,
+        "holds_crowd_in_bowl": true,
+        "redirects_crowd": true
+      },
+      "approval_deadline": 6,
+      "robustness_danger_minutes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "fastest_clear": {
+      "plan": {
+        "stadium_release_per_min": 1600,
+        "train_interval_min": 2,
+        "shuttle_outflow_per_min": 225,
+        "north_to_shuttle_share": 0.8,
+        "east_to_south_share": 0.8
+      },
+      "score": {
+        "dangerous_zone_minutes": 0,
+        "zones_ever_dangerous": 0,
+        "peak_density": 4.8,
+        "peak_zone": "station_platform",
+        "people_minutes_in_danger": 0,
+        "stadium_cleared_by_min": 42
+      },
+      "cost": {
+        "effort": 3.78,
+        "extra_trains_per_hour": 15.0,
+        "extra_shuttle_capacity_per_min": 75,
+        "extra_buses_est": 19,
+        "holds_crowd_in_bowl": true,
+        "redirects_crowd": true
+      },
+      "approval_deadline": 3,
+      "robustness_danger_minutes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "demo_plan": {
+    "plan": {
+      "stadium_release_per_min": 1200,
+      "train_interval_min": 3,
+      "shuttle_outflow_per_min": 300,
+      "north_to_shuttle_share": 0.55,
+      "east_to_south_share": 0.5
+    },
+    "score": {
+      "dangerous_zone_minutes": 48,
+      "zones_ever_dangerous": 1,
+      "peak_density": 6.0,
+      "peak_zone": "station_platform",
+      "people_minutes_in_danger": 335606,
+      "stadium_cleared_by_min": 56
+    },
+    "cost": {
+      "effort": 2.76,
+      "extra_trains_per_hour": 5.0,
+      "extra_shuttle_capacity_per_min": 150,
+      "extra_buses_est": 38,
+      "holds_crowd_in_bowl": true,
+      "redirects_crowd": true
+    }
+  }
+}

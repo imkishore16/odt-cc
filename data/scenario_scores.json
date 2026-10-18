@@ -1,0 +1,40 @@
+{
+  "plans": {
+    "baseline": {},
+    "plan": {
+      "stadium_release_per_min": 1200,
+      "train_interval_min": 3,
+      "shuttle_outflow_per_min": 300,
+      "north_to_shuttle_share": 0.55,
+      "east_to_south_share": 0.5
+    }
+  },
+  "approval_minute": 3,
+  "plan_cost": {
+    "effort": 2.76,
+    "extra_trains_per_hour": 5.0,
+    "extra_shuttle_capacity_per_min": 150,
+    "extra_buses_est": 38,
+    "holds_crowd_in_bowl": true,
+    "redirects_crowd": true
+  },
+  "plan_approval_deadline": 5,
+  "scores": {
+    "baseline": {
+      "dangerous_zone_minutes": 99,
+      "zones_ever_dangerous": 4,
+      "peak_density": 6.44,
+      "peak_zone": "walkway_station",
+      "people_minutes_in_danger": 807516,
+      "stadium_cleared_by_min": 28
+    },
+    "plan": {
+      "dangerous_zone_minutes": 0,
+      "zones_ever_dangerous": 0,
+      "peak_density": 4.34,
+      "peak_zone": "station_platform",
+      "people_minutes_in_danger": 0,
+      "stadium_cleared_by_min": 55
+    }
+  }
+}

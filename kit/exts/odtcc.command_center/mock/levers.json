@@ -1,0 +1,47 @@
+[
+  {
+    "key": "stadium_release_per_min",
+    "label": "Release from bowl (people/min)",
+    "agency": "LA28 Venue Ops",
+    "min": 800,
+    "max": 2500,
+    "default": 2500,
+    "integer": true
+  },
+  {
+    "key": "train_interval_min",
+    "label": "Train every (min)",
+    "agency": "LA Metro",
+    "min": 2,
+    "max": 4,
+    "default": 4,
+    "integer": true
+  },
+  {
+    "key": "shuttle_outflow_per_min",
+    "label": "Shuttle capacity (people/min)",
+    "agency": "LA28 Transport / LADOT",
+    "min": 150,
+    "max": 450,
+    "default": 150,
+    "integer": true
+  },
+  {
+    "key": "north_to_shuttle_share",
+    "label": "North plaza \u2192 shuttles (share)",
+    "agency": "Venue stewards / LAPD",
+    "min": 0.4,
+    "max": 0.8,
+    "default": 0.4,
+    "integer": false
+  },
+  {
+    "key": "east_to_south_share",
+    "label": "East gates \u2192 south (share)",
+    "agency": "Venue stewards / LAPD",
+    "min": 0.0,
+    "max": 0.8,
+    "default": 0.0,
+    "integer": false
+  }
+]

@@ -1,0 +1,1321 @@
+minute,node,label,type,occupancy,inflow,outflow,blocked,density,level
+0,stadium,Coliseum bowl,venue,67475,0,2525,0,,
+0,gate_N,North gates,gate,884,884,0,0,1.1,normal
+0,gate_E,East gates,gate,631,631,0,0,0.79,normal
+0,gate_S,South gates,gate,505,505,0,0,0.63,normal
+0,gate_W,West gates,gate,505,505,0,0,0.63,normal
+0,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+0,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+0,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+0,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+0,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+0,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+1,stadium,Coliseum bowl,venue,65214,0,2262,0,,
+1,gate_N,North gates,gate,943,792,732,0,1.18,normal
+1,gate_E,East gates,gate,640,565,557,0,0.8,normal
+1,gate_S,South gates,gate,452,452,505,0,0.57,normal
+1,gate_W,West gates,gate,452,452,505,0,0.57,normal
+1,plaza_N,North plaza / Rose Garden,plaza,1289,1289,0,0,0.16,normal
+1,plaza_S,South plaza,plaza,1010,1010,0,0,0.14,normal
+1,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+1,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+1,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+1,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+2,stadium,Coliseum bowl,venue,62585,0,2629,0,,
+2,gate_N,North gates,gate,1095,920,768,0,1.37,normal
+2,gate_E,East gates,gate,689,657,608,0,0.86,normal
+2,gate_S,South gates,gate,526,526,452,0,0.66,normal
+2,gate_W,West gates,gate,526,526,452,0,0.66,normal
+2,plaza_N,North plaza / Rose Garden,plaza,1376,1376,1289,0,0.17,normal
+2,plaza_S,South plaza,plaza,905,905,1010,0,0.13,normal
+2,walkway_station,Walkway to Expo Park/USC station,walkway,975,975,0,0,0.65,normal
+2,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+2,shuttle_stop,Shuttle bus loading,transit,516,516,0,0,0.17,normal
+2,parking_exit,Parking lots / Vermont Ave,road,808,808,0,0,0.08,normal
+3,stadium,Coliseum bowl,venue,61385,0,1200,0,,
+3,gate_N,North gates,gate,740,420,774,0,0.93,normal
+3,gate_E,East gates,gate,349,300,640,0,0.44,normal
+3,gate_S,South gates,gate,240,240,526,0,0.3,normal
+3,gate_W,West gates,gate,240,240,526,0,0.3,normal
+3,plaza_N,North plaza / Rose Garden,plaza,1094,1094,1376,0,0.14,normal
+3,plaza_S,South plaza,plaza,1371,1371,905,0,0.2,normal
+3,walkway_station,Walkway to Expo Park/USC station,walkway,1173,800,603,0,0.78,normal
+3,station_platform,Expo Park/USC platform,transit,603,603,0,0,0.5,normal
+3,shuttle_stop,Shuttle bus loading,transit,953,757,320,0,0.32,normal
+3,parking_exit,Parking lots / Vermont Ave,road,1233,724,298,0,0.12,normal
+4,stadium,Coliseum bowl,venue,60185,0,1200,0,,
+4,gate_N,North gates,gate,514,420,646,0,0.64,normal
+4,gate_E,East gates,gate,300,300,349,0,0.38,normal
+4,gate_S,South gates,gate,240,240,240,0,0.3,normal
+4,gate_W,West gates,gate,240,240,240,0,0.3,normal
+4,plaza_N,North plaza / Rose Garden,plaza,821,821,1094,0,0.1,normal
+4,plaza_S,South plaza,plaza,801,655,1225,0,0.11,normal
+4,walkway_station,Walkway to Expo Park/USC station,walkway,1359,737,552,0,0.91,normal
+4,station_platform,Expo Park/USC platform,transit,1154,552,0,0,0.96,normal
+4,shuttle_stop,Shuttle bus loading,transit,1252,602,303,0,0.42,normal
+4,parking_exit,Parking lots / Vermont Ave,road,1931,980,282,0,0.19,normal
+5,stadium,Coliseum bowl,venue,58985,0,1200,0,,
+5,gate_N,North gates,gate,420,420,514,0,0.53,normal
+5,gate_E,East gates,gate,300,300,300,0,0.38,normal
+5,gate_S,South gates,gate,240,240,240,0,0.3,normal
+5,gate_W,West gates,gate,240,240,240,0,0.3,normal
+5,plaza_N,North plaza / Rose Garden,plaza,664,664,821,0,0.08,normal
+5,plaza_S,South plaza,plaza,630,630,801,0,0.09,normal
+5,walkway_station,Walkway to Expo Park/USC station,walkway,1269,530,619,0,0.85,normal
+5,station_platform,Expo Park/USC platform,transit,1774,619,0,0,1.48,normal
+5,shuttle_stop,Shuttle bus loading,transit,1436,451,267,0,0.48,normal
+5,parking_exit,Parking lots / Vermont Ave,road,2288,641,283,0,0.23,normal
+6,stadium,Coliseum bowl,venue,57785,0,1200,0,,
+6,gate_N,North gates,gate,420,420,420,0,0.53,normal
+6,gate_E,East gates,gate,300,300,300,0,0.38,normal
+6,gate_S,South gates,gate,240,240,240,0,0.3,normal
+6,gate_W,West gates,gate,240,240,240,0,0.3,normal
+6,plaza_N,North plaza / Rose Garden,plaza,570,570,664,0,0.07,normal
+6,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+6,walkway_station,Walkway to Expo Park/USC station,walkway,1179,425,515,0,0.79,normal
+6,station_platform,Expo Park/USC platform,transit,1289,515,1000,0,1.07,normal
+6,shuttle_stop,Shuttle bus loading,transit,1523,365,279,0,0.51,normal
+6,parking_exit,Parking lots / Vermont Ave,road,2517,504,275,0,0.25,normal
+7,stadium,Coliseum bowl,venue,56585,0,1200,0,,
+7,gate_N,North gates,gate,420,420,420,0,0.53,normal
+7,gate_E,East gates,gate,300,300,300,0,0.38,normal
+7,gate_S,South gates,gate,240,240,240,0,0.3,normal
+7,gate_W,West gates,gate,240,240,240,0,0.3,normal
+7,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+7,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+7,walkway_station,Walkway to Expo Park/USC station,walkway,982,382,579,0,0.65,normal
+7,station_platform,Expo Park/USC platform,transit,1867,579,0,0,1.56,normal
+7,shuttle_stop,Shuttle bus loading,transit,1561,314,275,0,0.52,normal
+7,parking_exit,Parking lots / Vermont Ave,road,2748,504,273,0,0.27,normal
+8,stadium,Coliseum bowl,venue,55385,0,1200,0,,
+8,gate_N,North gates,gate,420,420,420,0,0.53,normal
+8,gate_E,East gates,gate,300,300,300,0,0.38,normal
+8,gate_S,South gates,gate,240,240,240,0,0.3,normal
+8,gate_W,West gates,gate,240,240,240,0,0.3,normal
+8,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+8,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+8,walkway_station,Walkway to Expo Park/USC station,walkway,779,382,586,0,0.52,normal
+8,station_platform,Expo Park/USC platform,transit,2454,586,0,0,2.04,crowded
+8,shuttle_stop,Shuttle bus loading,transit,1613,314,262,0,0.54,normal
+8,parking_exit,Parking lots / Vermont Ave,road,2993,504,259,0,0.3,normal
+9,stadium,Coliseum bowl,venue,54185,0,1200,0,,
+9,gate_N,North gates,gate,420,420,420,0,0.53,normal
+9,gate_E,East gates,gate,300,300,300,0,0.38,normal
+9,gate_S,South gates,gate,240,240,240,0,0.3,normal
+9,gate_W,West gates,gate,240,240,240,0,0.3,normal
+9,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+9,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+9,walkway_station,Walkway to Expo Park/USC station,walkway,572,382,589,0,0.38,normal
+9,station_platform,Expo Park/USC platform,transit,2043,589,1000,0,1.7,normal
+9,shuttle_stop,Shuttle bus loading,transit,1599,314,328,0,0.53,normal
+9,parking_exit,Parking lots / Vermont Ave,road,3178,504,320,0,0.32,normal
+10,stadium,Coliseum bowl,venue,52985,0,1200,0,,
+10,gate_N,North gates,gate,420,420,420,0,0.53,normal
+10,gate_E,East gates,gate,300,300,300,0,0.38,normal
+10,gate_S,South gates,gate,240,240,240,0,0.3,normal
+10,gate_W,West gates,gate,240,240,240,0,0.3,normal
+10,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+10,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+10,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,572,0,0.26,normal
+10,station_platform,Expo Park/USC platform,transit,2615,572,0,0,2.18,crowded
+10,shuttle_stop,Shuttle bus loading,transit,1623,314,289,0,0.54,normal
+10,parking_exit,Parking lots / Vermont Ave,road,3355,504,327,0,0.34,normal
+11,stadium,Coliseum bowl,venue,51785,0,1200,0,,
+11,gate_N,North gates,gate,420,420,420,0,0.53,normal
+11,gate_E,East gates,gate,300,300,300,0,0.38,normal
+11,gate_S,South gates,gate,240,240,240,0,0.3,normal
+11,gate_W,West gates,gate,240,240,240,0,0.3,normal
+11,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+11,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+11,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+11,station_platform,Expo Park/USC platform,transit,2997,382,0,0,2.5,crowded
+11,shuttle_stop,Shuttle bus loading,transit,1636,314,301,0,0.55,normal
+11,parking_exit,Parking lots / Vermont Ave,road,3593,504,266,0,0.36,normal
+12,stadium,Coliseum bowl,venue,50585,0,1200,0,,
+12,gate_N,North gates,gate,420,420,420,0,0.53,normal
+12,gate_E,East gates,gate,300,300,300,0,0.38,normal
+12,gate_S,South gates,gate,240,240,240,0,0.3,normal
+12,gate_W,West gates,gate,240,240,240,0,0.3,normal
+12,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+12,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+12,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+12,station_platform,Expo Park/USC platform,transit,2380,382,1000,0,1.98,normal
+12,shuttle_stop,Shuttle bus loading,transit,1629,314,321,0,0.54,normal
+12,parking_exit,Parking lots / Vermont Ave,road,3779,504,317,0,0.38,normal
+13,stadium,Coliseum bowl,venue,49385,0,1200,0,,
+13,gate_N,North gates,gate,420,420,420,0,0.53,normal
+13,gate_E,East gates,gate,300,300,300,0,0.38,normal
+13,gate_S,South gates,gate,240,240,240,0,0.3,normal
+13,gate_W,West gates,gate,240,240,240,0,0.3,normal
+13,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+13,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+13,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+13,station_platform,Expo Park/USC platform,transit,2762,382,0,0,2.3,crowded
+13,shuttle_stop,Shuttle bus loading,transit,1630,314,312,0,0.54,normal
+13,parking_exit,Parking lots / Vermont Ave,road,4019,504,265,0,0.4,normal
+14,stadium,Coliseum bowl,venue,48185,0,1200,0,,
+14,gate_N,North gates,gate,420,420,420,0,0.53,normal
+14,gate_E,East gates,gate,300,300,300,0,0.38,normal
+14,gate_S,South gates,gate,240,240,240,0,0.3,normal
+14,gate_W,West gates,gate,240,240,240,0,0.3,normal
+14,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+14,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+14,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+14,station_platform,Expo Park/USC platform,transit,3145,382,0,0,2.62,crowded
+14,shuttle_stop,Shuttle bus loading,transit,1673,314,270,0,0.56,normal
+14,parking_exit,Parking lots / Vermont Ave,road,4244,504,278,0,0.42,normal
+15,stadium,Coliseum bowl,venue,46985,0,1200,0,,
+15,gate_N,North gates,gate,420,420,420,0,0.53,normal
+15,gate_E,East gates,gate,300,300,300,0,0.38,normal
+15,gate_S,South gates,gate,240,240,240,0,0.3,normal
+15,gate_W,West gates,gate,240,240,240,0,0.3,normal
+15,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+15,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+15,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+15,station_platform,Expo Park/USC platform,transit,2527,382,1000,0,2.11,crowded
+15,shuttle_stop,Shuttle bus loading,transit,1714,314,272,0,0.57,normal
+15,parking_exit,Parking lots / Vermont Ave,road,4477,504,272,0,0.45,normal
+16,stadium,Coliseum bowl,venue,45785,0,1200,0,,
+16,gate_N,North gates,gate,420,420,420,0,0.53,normal
+16,gate_E,East gates,gate,300,300,300,0,0.38,normal
+16,gate_S,South gates,gate,240,240,240,0,0.3,normal
+16,gate_W,West gates,gate,240,240,240,0,0.3,normal
+16,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+16,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+16,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+16,station_platform,Expo Park/USC platform,transit,2910,382,0,0,2.42,crowded
+16,shuttle_stop,Shuttle bus loading,transit,1757,314,271,0,0.59,normal
+16,parking_exit,Parking lots / Vermont Ave,road,4716,504,265,0,0.47,normal
+17,stadium,Coliseum bowl,venue,44585,0,1200,0,,
+17,gate_N,North gates,gate,420,420,420,0,0.53,normal
+17,gate_E,East gates,gate,300,300,300,0,0.38,normal
+17,gate_S,South gates,gate,240,240,240,0,0.3,normal
+17,gate_W,West gates,gate,240,240,240,0,0.3,normal
+17,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+17,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+17,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+17,station_platform,Expo Park/USC platform,transit,3292,382,0,0,2.74,crowded
+17,shuttle_stop,Shuttle bus loading,transit,1784,314,287,0,0.59,normal
+17,parking_exit,Parking lots / Vermont Ave,road,4930,504,290,0,0.49,normal
+18,stadium,Coliseum bowl,venue,43385,0,1200,0,,
+18,gate_N,North gates,gate,420,420,420,0,0.53,normal
+18,gate_E,East gates,gate,300,300,300,0,0.38,normal
+18,gate_S,South gates,gate,240,240,240,0,0.3,normal
+18,gate_W,West gates,gate,240,240,240,0,0.3,normal
+18,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+18,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+18,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+18,station_platform,Expo Park/USC platform,transit,2675,382,1000,0,2.23,crowded
+18,shuttle_stop,Shuttle bus loading,transit,1828,314,269,0,0.61,normal
+18,parking_exit,Parking lots / Vermont Ave,road,5145,504,289,0,0.51,normal
+19,stadium,Coliseum bowl,venue,42185,0,1200,0,,
+19,gate_N,North gates,gate,420,420,420,0,0.53,normal
+19,gate_E,East gates,gate,300,300,300,0,0.38,normal
+19,gate_S,South gates,gate,240,240,240,0,0.3,normal
+19,gate_W,West gates,gate,240,240,240,0,0.3,normal
+19,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+19,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+19,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+19,station_platform,Expo Park/USC platform,transit,3057,382,0,0,2.55,crowded
+19,shuttle_stop,Shuttle bus loading,transit,1811,314,330,0,0.6,normal
+19,parking_exit,Parking lots / Vermont Ave,road,5331,504,318,0,0.53,normal
+20,stadium,Coliseum bowl,venue,40985,0,1200,0,,
+20,gate_N,North gates,gate,420,420,420,0,0.53,normal
+20,gate_E,East gates,gate,300,300,300,0,0.38,normal
+20,gate_S,South gates,gate,240,240,240,0,0.3,normal
+20,gate_W,West gates,gate,240,240,240,0,0.3,normal
+20,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+20,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+20,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+20,station_platform,Expo Park/USC platform,transit,3440,382,0,0,2.87,crowded
+20,shuttle_stop,Shuttle bus loading,transit,1841,314,283,0,0.61,normal
+20,parking_exit,Parking lots / Vermont Ave,road,5507,504,329,0,0.55,normal
+21,stadium,Coliseum bowl,venue,39785,0,1200,0,,
+21,gate_N,North gates,gate,420,420,420,0,0.53,normal
+21,gate_E,East gates,gate,300,300,300,0,0.38,normal
+21,gate_S,South gates,gate,240,240,240,0,0.3,normal
+21,gate_W,West gates,gate,240,240,240,0,0.3,normal
+21,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+21,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+21,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+21,station_platform,Expo Park/USC platform,transit,2822,382,1000,0,2.35,crowded
+21,shuttle_stop,Shuttle bus loading,transit,1888,314,267,0,0.63,normal
+21,parking_exit,Parking lots / Vermont Ave,road,5733,504,277,0,0.57,normal
+22,stadium,Coliseum bowl,venue,38585,0,1200,0,,
+22,gate_N,North gates,gate,420,420,420,0,0.53,normal
+22,gate_E,East gates,gate,300,300,300,0,0.38,normal
+22,gate_S,South gates,gate,240,240,240,0,0.3,normal
+22,gate_W,West gates,gate,240,240,240,0,0.3,normal
+22,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+22,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+22,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+22,station_platform,Expo Park/USC platform,transit,3205,382,0,0,2.67,crowded
+22,shuttle_stop,Shuttle bus loading,transit,1935,314,267,0,0.65,normal
+22,parking_exit,Parking lots / Vermont Ave,road,5910,504,327,0,0.59,normal
+23,stadium,Coliseum bowl,venue,37385,0,1200,0,,
+23,gate_N,North gates,gate,420,420,420,0,0.53,normal
+23,gate_E,East gates,gate,300,300,300,0,0.38,normal
+23,gate_S,South gates,gate,240,240,240,0,0.3,normal
+23,gate_W,West gates,gate,240,240,240,0,0.3,normal
+23,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+23,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+23,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+23,station_platform,Expo Park/USC platform,transit,3587,382,0,0,2.99,crowded
+23,shuttle_stop,Shuttle bus loading,transit,1949,314,300,0,0.65,normal
+23,parking_exit,Parking lots / Vermont Ave,road,6113,504,301,0,0.61,normal
+24,stadium,Coliseum bowl,venue,36185,0,1200,0,,
+24,gate_N,North gates,gate,420,420,420,0,0.53,normal
+24,gate_E,East gates,gate,300,300,300,0,0.38,normal
+24,gate_S,South gates,gate,240,240,240,0,0.3,normal
+24,gate_W,West gates,gate,240,240,240,0,0.3,normal
+24,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+24,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+24,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+24,station_platform,Expo Park/USC platform,transit,2970,382,1000,0,2.47,crowded
+24,shuttle_stop,Shuttle bus loading,transit,1957,314,305,0,0.65,normal
+24,parking_exit,Parking lots / Vermont Ave,road,6339,504,277,0,0.63,normal
+25,stadium,Coliseum bowl,venue,34985,0,1200,0,,
+25,gate_N,North gates,gate,420,420,420,0,0.53,normal
+25,gate_E,East gates,gate,300,300,300,0,0.38,normal
+25,gate_S,South gates,gate,240,240,240,0,0.3,normal
+25,gate_W,West gates,gate,240,240,240,0,0.3,normal
+25,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+25,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+25,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+25,station_platform,Expo Park/USC platform,transit,3352,382,0,0,2.79,crowded
+25,shuttle_stop,Shuttle bus loading,transit,1996,314,275,0,0.67,normal
+25,parking_exit,Parking lots / Vermont Ave,road,6518,504,325,0,0.65,normal
+26,stadium,Coliseum bowl,venue,33785,0,1200,0,,
+26,gate_N,North gates,gate,420,420,420,0,0.53,normal
+26,gate_E,East gates,gate,300,300,300,0,0.38,normal
+26,gate_S,South gates,gate,240,240,240,0,0.3,normal
+26,gate_W,West gates,gate,240,240,240,0,0.3,normal
+26,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+26,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+26,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+26,station_platform,Expo Park/USC platform,transit,3735,382,0,0,3.11,crowded
+26,shuttle_stop,Shuttle bus loading,transit,2005,314,304,0,0.67,normal
+26,parking_exit,Parking lots / Vermont Ave,road,6767,504,256,0,0.68,normal
+27,stadium,Coliseum bowl,venue,32585,0,1200,0,,
+27,gate_N,North gates,gate,420,420,420,0,0.53,normal
+27,gate_E,East gates,gate,300,300,300,0,0.38,normal
+27,gate_S,South gates,gate,240,240,240,0,0.3,normal
+27,gate_W,West gates,gate,240,240,240,0,0.3,normal
+27,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+27,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+27,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+27,station_platform,Expo Park/USC platform,transit,3117,382,1000,0,2.6,crowded
+27,shuttle_stop,Shuttle bus loading,transit,2043,314,275,0,0.68,normal
+27,parking_exit,Parking lots / Vermont Ave,road,6970,504,300,0,0.7,normal
+28,stadium,Coliseum bowl,venue,31385,0,1200,0,,
+28,gate_N,North gates,gate,420,420,420,0,0.53,normal
+28,gate_E,East gates,gate,300,300,300,0,0.38,normal
+28,gate_S,South gates,gate,240,240,240,0,0.3,normal
+28,gate_W,West gates,gate,240,240,240,0,0.3,normal
+28,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+28,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+28,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+28,station_platform,Expo Park/USC platform,transit,3500,382,0,0,2.92,crowded
+28,shuttle_stop,Shuttle bus loading,transit,2070,314,287,0,0.69,normal
+28,parking_exit,Parking lots / Vermont Ave,road,7199,504,276,0,0.72,normal
+29,stadium,Coliseum bowl,venue,30185,0,1200,0,,
+29,gate_N,North gates,gate,420,420,420,0,0.53,normal
+29,gate_E,East gates,gate,300,300,300,0,0.38,normal
+29,gate_S,South gates,gate,240,240,240,0,0.3,normal
+29,gate_W,West gates,gate,240,240,240,0,0.3,normal
+29,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+29,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+29,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+29,station_platform,Expo Park/USC platform,transit,3882,382,0,0,3.24,crowded
+29,shuttle_stop,Shuttle bus loading,transit,2123,314,261,0,0.71,normal
+29,parking_exit,Parking lots / Vermont Ave,road,7381,504,321,0,0.74,normal
+30,stadium,Coliseum bowl,venue,28985,0,1200,0,,
+30,gate_N,North gates,gate,420,420,420,0,0.53,normal
+30,gate_E,East gates,gate,300,300,300,0,0.38,normal
+30,gate_S,South gates,gate,240,240,240,0,0.3,normal
+30,gate_W,West gates,gate,240,240,240,0,0.3,normal
+30,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+30,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+30,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+30,station_platform,Expo Park/USC platform,transit,3265,382,1000,0,2.72,crowded
+30,shuttle_stop,Shuttle bus loading,transit,2122,314,315,0,0.71,normal
+30,parking_exit,Parking lots / Vermont Ave,road,7566,504,320,0,0.76,normal
+31,stadium,Coliseum bowl,venue,27785,0,1200,0,,
+31,gate_N,North gates,gate,420,420,420,0,0.53,normal
+31,gate_E,East gates,gate,300,300,300,0,0.38,normal
+31,gate_S,South gates,gate,240,240,240,0,0.3,normal
+31,gate_W,West gates,gate,240,240,240,0,0.3,normal
+31,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+31,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+31,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+31,station_platform,Expo Park/USC platform,transit,3647,382,0,0,3.04,crowded
+31,shuttle_stop,Shuttle bus loading,transit,2169,314,267,0,0.72,normal
+31,parking_exit,Parking lots / Vermont Ave,road,7745,504,325,0,0.77,normal
+32,stadium,Coliseum bowl,venue,26585,0,1200,0,,
+32,gate_N,North gates,gate,420,420,420,0,0.53,normal
+32,gate_E,East gates,gate,300,300,300,0,0.38,normal
+32,gate_S,South gates,gate,240,240,240,0,0.3,normal
+32,gate_W,West gates,gate,240,240,240,0,0.3,normal
+32,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+32,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+32,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+32,station_platform,Expo Park/USC platform,transit,4030,382,0,0,3.36,crowded
+32,shuttle_stop,Shuttle bus loading,transit,2167,314,315,0,0.72,normal
+32,parking_exit,Parking lots / Vermont Ave,road,7929,504,320,0,0.79,normal
+33,stadium,Coliseum bowl,venue,25385,0,1200,0,,
+33,gate_N,North gates,gate,420,420,420,0,0.53,normal
+33,gate_E,East gates,gate,300,300,300,0,0.38,normal
+33,gate_S,South gates,gate,240,240,240,0,0.3,normal
+33,gate_W,West gates,gate,240,240,240,0,0.3,normal
+33,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+33,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+33,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+33,station_platform,Expo Park/USC platform,transit,3412,382,1000,0,2.84,crowded
+33,shuttle_stop,Shuttle bus loading,transit,2191,314,290,0,0.73,normal
+33,parking_exit,Parking lots / Vermont Ave,road,8155,504,278,0,0.82,normal
+34,stadium,Coliseum bowl,venue,24185,0,1200,0,,
+34,gate_N,North gates,gate,420,420,420,0,0.53,normal
+34,gate_E,East gates,gate,300,300,300,0,0.38,normal
+34,gate_S,South gates,gate,240,240,240,0,0.3,normal
+34,gate_W,West gates,gate,240,240,240,0,0.3,normal
+34,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+34,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+34,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+34,station_platform,Expo Park/USC platform,transit,3795,382,0,0,3.16,crowded
+34,shuttle_stop,Shuttle bus loading,transit,2201,314,303,0,0.73,normal
+34,parking_exit,Parking lots / Vermont Ave,road,8374,504,285,0,0.84,normal
+35,stadium,Coliseum bowl,venue,22985,0,1200,0,,
+35,gate_N,North gates,gate,420,420,420,0,0.53,normal
+35,gate_E,East gates,gate,300,300,300,0,0.38,normal
+35,gate_S,South gates,gate,240,240,240,0,0.3,normal
+35,gate_W,West gates,gate,240,240,240,0,0.3,normal
+35,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+35,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+35,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+35,station_platform,Expo Park/USC platform,transit,4177,382,0,0,3.48,crowded
+35,shuttle_stop,Shuttle bus loading,transit,2252,314,263,0,0.75,normal
+35,parking_exit,Parking lots / Vermont Ave,road,8591,504,288,0,0.86,normal
+36,stadium,Coliseum bowl,venue,21785,0,1200,0,,
+36,gate_N,North gates,gate,420,420,420,0,0.53,normal
+36,gate_E,East gates,gate,300,300,300,0,0.38,normal
+36,gate_S,South gates,gate,240,240,240,0,0.3,normal
+36,gate_W,West gates,gate,240,240,240,0,0.3,normal
+36,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+36,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+36,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+36,station_platform,Expo Park/USC platform,transit,3560,382,1000,0,2.97,crowded
+36,shuttle_stop,Shuttle bus loading,transit,2310,314,255,0,0.77,normal
+36,parking_exit,Parking lots / Vermont Ave,road,8770,504,324,0,0.88,normal
+37,stadium,Coliseum bowl,venue,20585,0,1200,0,,
+37,gate_N,North gates,gate,420,420,420,0,0.53,normal
+37,gate_E,East gates,gate,300,300,300,0,0.38,normal
+37,gate_S,South gates,gate,240,240,240,0,0.3,normal
+37,gate_W,West gates,gate,240,240,240,0,0.3,normal
+37,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+37,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+37,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+37,station_platform,Expo Park/USC platform,transit,3942,382,0,0,3.29,crowded
+37,shuttle_stop,Shuttle bus loading,transit,2345,314,279,0,0.78,normal
+37,parking_exit,Parking lots / Vermont Ave,road,8956,504,319,0,0.9,normal
+38,stadium,Coliseum bowl,venue,19385,0,1200,0,,
+38,gate_N,North gates,gate,420,420,420,0,0.53,normal
+38,gate_E,East gates,gate,300,300,300,0,0.38,normal
+38,gate_S,South gates,gate,240,240,240,0,0.3,normal
+38,gate_W,West gates,gate,240,240,240,0,0.3,normal
+38,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+38,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+38,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+38,station_platform,Expo Park/USC platform,transit,4325,382,0,0,3.6,high
+38,shuttle_stop,Shuttle bus loading,transit,2333,314,326,0,0.78,normal
+38,parking_exit,Parking lots / Vermont Ave,road,9154,504,306,0,0.92,normal
+39,stadium,Coliseum bowl,venue,18185,0,1200,0,,
+39,gate_N,North gates,gate,420,420,420,0,0.53,normal
+39,gate_E,East gates,gate,300,300,300,0,0.38,normal
+39,gate_S,South gates,gate,240,240,240,0,0.3,normal
+39,gate_W,West gates,gate,240,240,240,0,0.3,normal
+39,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+39,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+39,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+39,station_platform,Expo Park/USC platform,transit,3707,382,1000,0,3.09,crowded
+39,shuttle_stop,Shuttle bus loading,transit,2342,314,304,0,0.78,normal
+39,parking_exit,Parking lots / Vermont Ave,road,9368,504,290,0,0.94,normal
+40,stadium,Coliseum bowl,venue,16985,0,1200,0,,
+40,gate_N,North gates,gate,420,420,420,0,0.53,normal
+40,gate_E,East gates,gate,300,300,300,0,0.38,normal
+40,gate_S,South gates,gate,240,240,240,0,0.3,normal
+40,gate_W,West gates,gate,240,240,240,0,0.3,normal
+40,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+40,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+40,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+40,station_platform,Expo Park/USC platform,transit,4090,382,0,0,3.41,crowded
+40,shuttle_stop,Shuttle bus loading,transit,2353,314,302,0,0.78,normal
+40,parking_exit,Parking lots / Vermont Ave,road,9592,504,280,0,0.96,normal
+41,stadium,Coliseum bowl,venue,15785,0,1200,0,,
+41,gate_N,North gates,gate,420,420,420,0,0.53,normal
+41,gate_E,East gates,gate,300,300,300,0,0.38,normal
+41,gate_S,South gates,gate,240,240,240,0,0.3,normal
+41,gate_W,West gates,gate,240,240,240,0,0.3,normal
+41,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+41,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+41,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+41,station_platform,Expo Park/USC platform,transit,4472,382,0,0,3.73,high
+41,shuttle_stop,Shuttle bus loading,transit,2348,314,319,0,0.78,normal
+41,parking_exit,Parking lots / Vermont Ave,road,9835,504,260,0,0.98,normal
+42,stadium,Coliseum bowl,venue,14585,0,1200,0,,
+42,gate_N,North gates,gate,420,420,420,0,0.53,normal
+42,gate_E,East gates,gate,300,300,300,0,0.38,normal
+42,gate_S,South gates,gate,240,240,240,0,0.3,normal
+42,gate_W,West gates,gate,240,240,240,0,0.3,normal
+42,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+42,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+42,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+42,station_platform,Expo Park/USC platform,transit,3855,382,1000,0,3.21,crowded
+42,shuttle_stop,Shuttle bus loading,transit,2350,314,311,0,0.78,normal
+42,parking_exit,Parking lots / Vermont Ave,road,10027,504,313,0,1.0,normal
+43,stadium,Coliseum bowl,venue,13385,0,1200,0,,
+43,gate_N,North gates,gate,420,420,420,0,0.53,normal
+43,gate_E,East gates,gate,300,300,300,0,0.38,normal
+43,gate_S,South gates,gate,240,240,240,0,0.3,normal
+43,gate_W,West gates,gate,240,240,240,0,0.3,normal
+43,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+43,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+43,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+43,station_platform,Expo Park/USC platform,transit,4237,382,0,0,3.53,high
+43,shuttle_stop,Shuttle bus loading,transit,2375,314,289,0,0.79,normal
+43,parking_exit,Parking lots / Vermont Ave,road,10216,504,315,0,1.02,normal
+44,stadium,Coliseum bowl,venue,12185,0,1200,0,,
+44,gate_N,North gates,gate,420,420,420,0,0.53,normal
+44,gate_E,East gates,gate,300,300,300,0,0.38,normal
+44,gate_S,South gates,gate,240,240,240,0,0.3,normal
+44,gate_W,West gates,gate,240,240,240,0,0.3,normal
+44,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+44,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+44,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+44,station_platform,Expo Park/USC platform,transit,4620,382,0,0,3.85,high
+44,shuttle_stop,Shuttle bus loading,transit,2371,314,317,0,0.79,normal
+44,parking_exit,Parking lots / Vermont Ave,road,10424,504,296,0,1.04,normal
+45,stadium,Coliseum bowl,venue,10985,0,1200,0,,
+45,gate_N,North gates,gate,420,420,420,0,0.53,normal
+45,gate_E,East gates,gate,300,300,300,0,0.38,normal
+45,gate_S,South gates,gate,240,240,240,0,0.3,normal
+45,gate_W,West gates,gate,240,240,240,0,0.3,normal
+45,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+45,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+45,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+45,station_platform,Expo Park/USC platform,transit,4002,382,1000,0,3.34,crowded
+45,shuttle_stop,Shuttle bus loading,transit,2382,314,302,0,0.79,normal
+45,parking_exit,Parking lots / Vermont Ave,road,10652,504,276,0,1.07,normal
+46,stadium,Coliseum bowl,venue,9785,0,1200,0,,
+46,gate_N,North gates,gate,420,420,420,0,0.53,normal
+46,gate_E,East gates,gate,300,300,300,0,0.38,normal
+46,gate_S,South gates,gate,240,240,240,0,0.3,normal
+46,gate_W,West gates,gate,240,240,240,0,0.3,normal
+46,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+46,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+46,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+46,station_platform,Expo Park/USC platform,transit,4385,382,0,0,3.65,high
+46,shuttle_stop,Shuttle bus loading,transit,2388,314,308,0,0.8,normal
+46,parking_exit,Parking lots / Vermont Ave,road,10896,504,260,0,1.09,normal
+47,stadium,Coliseum bowl,venue,8585,0,1200,0,,
+47,gate_N,North gates,gate,420,420,420,0,0.53,normal
+47,gate_E,East gates,gate,300,300,300,0,0.38,normal
+47,gate_S,South gates,gate,240,240,240,0,0.3,normal
+47,gate_W,West gates,gate,240,240,240,0,0.3,normal
+47,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+47,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+47,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+47,station_platform,Expo Park/USC platform,transit,4767,382,0,0,3.97,high
+47,shuttle_stop,Shuttle bus loading,transit,2382,314,319,0,0.79,normal
+47,parking_exit,Parking lots / Vermont Ave,road,11088,504,312,0,1.11,normal
+48,stadium,Coliseum bowl,venue,7385,0,1200,0,,
+48,gate_N,North gates,gate,420,420,420,0,0.53,normal
+48,gate_E,East gates,gate,300,300,300,0,0.38,normal
+48,gate_S,South gates,gate,240,240,240,0,0.3,normal
+48,gate_W,West gates,gate,240,240,240,0,0.3,normal
+48,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+48,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+48,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+48,station_platform,Expo Park/USC platform,transit,4150,382,1000,0,3.46,crowded
+48,shuttle_stop,Shuttle bus loading,transit,2400,314,296,0,0.8,normal
+48,parking_exit,Parking lots / Vermont Ave,road,11291,504,300,0,1.13,normal
+49,stadium,Coliseum bowl,venue,6185,0,1200,0,,
+49,gate_N,North gates,gate,420,420,420,0,0.53,normal
+49,gate_E,East gates,gate,300,300,300,0,0.38,normal
+49,gate_S,South gates,gate,240,240,240,0,0.3,normal
+49,gate_W,West gates,gate,240,240,240,0,0.3,normal
+49,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+49,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+49,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+49,station_platform,Expo Park/USC platform,transit,4532,382,0,0,3.78,high
+49,shuttle_stop,Shuttle bus loading,transit,2423,314,290,0,0.81,normal
+49,parking_exit,Parking lots / Vermont Ave,road,11531,504,265,0,1.15,normal
+50,stadium,Coliseum bowl,venue,4985,0,1200,0,,
+50,gate_N,North gates,gate,420,420,420,0,0.53,normal
+50,gate_E,East gates,gate,300,300,300,0,0.38,normal
+50,gate_S,South gates,gate,240,240,240,0,0.3,normal
+50,gate_W,West gates,gate,240,240,240,0,0.3,normal
+50,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+50,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+50,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+50,station_platform,Expo Park/USC platform,transit,4915,382,0,0,4.1,high
+50,shuttle_stop,Shuttle bus loading,transit,2478,314,259,0,0.83,normal
+50,parking_exit,Parking lots / Vermont Ave,road,11751,504,283,0,1.18,normal
+51,stadium,Coliseum bowl,venue,3785,0,1200,0,,
+51,gate_N,North gates,gate,420,420,420,0,0.53,normal
+51,gate_E,East gates,gate,300,300,300,0,0.38,normal
+51,gate_S,South gates,gate,240,240,240,0,0.3,normal
+51,gate_W,West gates,gate,240,240,240,0,0.3,normal
+51,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+51,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+51,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+51,station_platform,Expo Park/USC platform,transit,4297,382,1000,0,3.58,high
+51,shuttle_stop,Shuttle bus loading,transit,2535,314,256,0,0.84,normal
+51,parking_exit,Parking lots / Vermont Ave,road,11960,504,295,0,1.2,normal
+52,stadium,Coliseum bowl,venue,2585,0,1200,0,,
+52,gate_N,North gates,gate,420,420,420,0,0.53,normal
+52,gate_E,East gates,gate,300,300,300,0,0.38,normal
+52,gate_S,South gates,gate,240,240,240,0,0.3,normal
+52,gate_W,West gates,gate,240,240,240,0,0.3,normal
+52,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+52,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+52,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+52,station_platform,Expo Park/USC platform,transit,4680,382,0,0,3.9,high
+52,shuttle_stop,Shuttle bus loading,transit,2592,314,257,0,0.86,normal
+52,parking_exit,Parking lots / Vermont Ave,road,12198,504,266,0,1.22,normal
+53,stadium,Coliseum bowl,venue,1385,0,1200,0,,
+53,gate_N,North gates,gate,420,420,420,0,0.53,normal
+53,gate_E,East gates,gate,300,300,300,0,0.38,normal
+53,gate_S,South gates,gate,240,240,240,0,0.3,normal
+53,gate_W,West gates,gate,240,240,240,0,0.3,normal
+53,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+53,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+53,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+53,station_platform,Expo Park/USC platform,transit,5062,382,0,0,4.22,high
+53,shuttle_stop,Shuttle bus loading,transit,2594,314,311,0,0.86,normal
+53,parking_exit,Parking lots / Vermont Ave,road,12438,504,264,0,1.24,normal
+54,stadium,Coliseum bowl,venue,185,0,1200,0,,
+54,gate_N,North gates,gate,420,420,420,0,0.53,normal
+54,gate_E,East gates,gate,300,300,300,0,0.38,normal
+54,gate_S,South gates,gate,240,240,240,0,0.3,normal
+54,gate_W,West gates,gate,240,240,240,0,0.3,normal
+54,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+54,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+54,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+54,station_platform,Expo Park/USC platform,transit,4445,382,1000,0,3.7,high
+54,shuttle_stop,Shuttle bus loading,transit,2599,314,309,0,0.87,normal
+54,parking_exit,Parking lots / Vermont Ave,road,12681,504,261,0,1.27,normal
+55,stadium,Coliseum bowl,venue,0,0,185,0,,
+55,gate_N,North gates,gate,65,65,420,0,0.08,normal
+55,gate_E,East gates,gate,46,46,300,0,0.06,normal
+55,gate_S,South gates,gate,37,37,240,0,0.05,normal
+55,gate_W,West gates,gate,37,37,240,0,0.05,normal
+55,plaza_N,North plaza / Rose Garden,plaza,570,570,570,0,0.07,normal
+55,plaza_S,South plaza,plaza,630,630,630,0,0.09,normal
+55,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+55,station_platform,Expo Park/USC platform,transit,4827,382,0,0,4.02,high
+55,shuttle_stop,Shuttle bus loading,transit,2599,314,314,0,0.87,normal
+55,parking_exit,Parking lots / Vermont Ave,road,12904,504,281,0,1.29,normal
+56,stadium,Coliseum bowl,venue,0,0,0,0,,
+56,gate_N,North gates,gate,0,0,65,0,0.0,normal
+56,gate_E,East gates,gate,0,0,46,0,0.0,normal
+56,gate_S,South gates,gate,0,0,37,0,0.0,normal
+56,gate_W,West gates,gate,0,0,37,0,0.0,normal
+56,plaza_N,North plaza / Rose Garden,plaza,88,88,570,0,0.01,normal
+56,plaza_S,South plaza,plaza,97,97,630,0,0.01,normal
+56,walkway_station,Walkway to Expo Park/USC station,walkway,382,382,382,0,0.26,normal
+56,station_platform,Expo Park/USC platform,transit,5210,382,0,0,4.34,high
+56,shuttle_stop,Shuttle bus loading,transit,2610,314,303,0,0.87,normal
+56,parking_exit,Parking lots / Vermont Ave,road,13091,504,317,0,1.31,normal
+57,stadium,Coliseum bowl,venue,0,0,0,0,,
+57,gate_N,North gates,gate,0,0,0,0,0.0,normal
+57,gate_E,East gates,gate,0,0,0,0,0.0,normal
+57,gate_S,South gates,gate,0,0,0,0,0.0,normal
+57,gate_W,West gates,gate,0,0,0,0,0.0,normal
+57,plaza_N,North plaza / Rose Garden,plaza,0,0,88,0,0.0,normal
+57,plaza_S,South plaza,plaza,0,0,97,0,0.0,normal
+57,walkway_station,Walkway to Expo Park/USC station,walkway,59,59,382,0,0.04,normal
+57,station_platform,Expo Park/USC platform,transit,4592,382,1000,0,3.83,high
+57,shuttle_stop,Shuttle bus loading,transit,2370,48,288,0,0.79,normal
+57,parking_exit,Parking lots / Vermont Ave,road,12859,78,310,0,1.29,normal
+58,stadium,Coliseum bowl,venue,0,0,0,0,,
+58,gate_N,North gates,gate,0,0,0,0,0.0,normal
+58,gate_E,East gates,gate,0,0,0,0,0.0,normal
+58,gate_S,South gates,gate,0,0,0,0,0.0,normal
+58,gate_W,West gates,gate,0,0,0,0,0.0,normal
+58,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+58,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+58,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,59,0,0.0,normal
+58,station_platform,Expo Park/USC platform,transit,4651,59,0,0,3.88,high
+58,shuttle_stop,Shuttle bus loading,transit,2087,0,283,0,0.7,normal
+58,parking_exit,Parking lots / Vermont Ave,road,12602,0,257,0,1.26,normal
+59,stadium,Coliseum bowl,venue,0,0,0,0,,
+59,gate_N,North gates,gate,0,0,0,0,0.0,normal
+59,gate_E,East gates,gate,0,0,0,0,0.0,normal
+59,gate_S,South gates,gate,0,0,0,0,0.0,normal
+59,gate_W,West gates,gate,0,0,0,0,0.0,normal
+59,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+59,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+59,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+59,station_platform,Expo Park/USC platform,transit,4651,0,0,0,3.88,high
+59,shuttle_stop,Shuttle bus loading,transit,1831,0,256,0,0.61,normal
+59,parking_exit,Parking lots / Vermont Ave,road,12276,0,326,0,1.23,normal
+60,stadium,Coliseum bowl,venue,0,0,0,0,,
+60,gate_N,North gates,gate,0,0,0,0,0.0,normal
+60,gate_E,East gates,gate,0,0,0,0,0.0,normal
+60,gate_S,South gates,gate,0,0,0,0,0.0,normal
+60,gate_W,West gates,gate,0,0,0,0,0.0,normal
+60,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+60,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+60,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+60,station_platform,Expo Park/USC platform,transit,3651,0,1000,0,3.04,crowded
+60,shuttle_stop,Shuttle bus loading,transit,1569,0,262,0,0.52,normal
+60,parking_exit,Parking lots / Vermont Ave,road,12004,0,272,0,1.2,normal
+61,stadium,Coliseum bowl,venue,0,0,0,0,,
+61,gate_N,North gates,gate,0,0,0,0,0.0,normal
+61,gate_E,East gates,gate,0,0,0,0,0.0,normal
+61,gate_S,South gates,gate,0,0,0,0,0.0,normal
+61,gate_W,West gates,gate,0,0,0,0,0.0,normal
+61,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+61,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+61,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+61,station_platform,Expo Park/USC platform,transit,3651,0,0,0,3.04,crowded
+61,shuttle_stop,Shuttle bus loading,transit,1261,0,308,0,0.42,normal
+61,parking_exit,Parking lots / Vermont Ave,road,11729,0,275,0,1.17,normal
+62,stadium,Coliseum bowl,venue,0,0,0,0,,
+62,gate_N,North gates,gate,0,0,0,0,0.0,normal
+62,gate_E,East gates,gate,0,0,0,0,0.0,normal
+62,gate_S,South gates,gate,0,0,0,0,0.0,normal
+62,gate_W,West gates,gate,0,0,0,0,0.0,normal
+62,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+62,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+62,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+62,station_platform,Expo Park/USC platform,transit,3651,0,0,0,3.04,crowded
+62,shuttle_stop,Shuttle bus loading,transit,970,0,291,0,0.32,normal
+62,parking_exit,Parking lots / Vermont Ave,road,11419,0,309,0,1.14,normal
+63,stadium,Coliseum bowl,venue,0,0,0,0,,
+63,gate_N,North gates,gate,0,0,0,0,0.0,normal
+63,gate_E,East gates,gate,0,0,0,0,0.0,normal
+63,gate_S,South gates,gate,0,0,0,0,0.0,normal
+63,gate_W,West gates,gate,0,0,0,0,0.0,normal
+63,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+63,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+63,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+63,station_platform,Expo Park/USC platform,transit,2651,0,1000,0,2.21,crowded
+63,shuttle_stop,Shuttle bus loading,transit,675,0,295,0,0.23,normal
+63,parking_exit,Parking lots / Vermont Ave,road,11144,0,276,0,1.11,normal
+64,stadium,Coliseum bowl,venue,0,0,0,0,,
+64,gate_N,North gates,gate,0,0,0,0,0.0,normal
+64,gate_E,East gates,gate,0,0,0,0,0.0,normal
+64,gate_S,South gates,gate,0,0,0,0,0.0,normal
+64,gate_W,West gates,gate,0,0,0,0,0.0,normal
+64,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+64,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+64,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+64,station_platform,Expo Park/USC platform,transit,2651,0,0,0,2.21,crowded
+64,shuttle_stop,Shuttle bus loading,transit,385,0,290,0,0.13,normal
+64,parking_exit,Parking lots / Vermont Ave,road,10856,0,288,0,1.09,normal
+65,stadium,Coliseum bowl,venue,0,0,0,0,,
+65,gate_N,North gates,gate,0,0,0,0,0.0,normal
+65,gate_E,East gates,gate,0,0,0,0,0.0,normal
+65,gate_S,South gates,gate,0,0,0,0,0.0,normal
+65,gate_W,West gates,gate,0,0,0,0,0.0,normal
+65,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+65,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+65,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+65,station_platform,Expo Park/USC platform,transit,2651,0,0,0,2.21,crowded
+65,shuttle_stop,Shuttle bus loading,transit,126,0,259,0,0.04,normal
+65,parking_exit,Parking lots / Vermont Ave,road,10590,0,266,0,1.06,normal
+66,stadium,Coliseum bowl,venue,0,0,0,0,,
+66,gate_N,North gates,gate,0,0,0,0,0.0,normal
+66,gate_E,East gates,gate,0,0,0,0,0.0,normal
+66,gate_S,South gates,gate,0,0,0,0,0.0,normal
+66,gate_W,West gates,gate,0,0,0,0,0.0,normal
+66,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+66,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+66,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+66,station_platform,Expo Park/USC platform,transit,1651,0,1000,0,1.38,normal
+66,shuttle_stop,Shuttle bus loading,transit,0,0,126,0,0.0,normal
+66,parking_exit,Parking lots / Vermont Ave,road,10301,0,289,0,1.03,normal
+67,stadium,Coliseum bowl,venue,0,0,0,0,,
+67,gate_N,North gates,gate,0,0,0,0,0.0,normal
+67,gate_E,East gates,gate,0,0,0,0,0.0,normal
+67,gate_S,South gates,gate,0,0,0,0,0.0,normal
+67,gate_W,West gates,gate,0,0,0,0,0.0,normal
+67,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+67,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+67,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+67,station_platform,Expo Park/USC platform,transit,1651,0,0,0,1.38,normal
+67,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+67,parking_exit,Parking lots / Vermont Ave,road,10030,0,271,0,1.0,normal
+68,stadium,Coliseum bowl,venue,0,0,0,0,,
+68,gate_N,North gates,gate,0,0,0,0,0.0,normal
+68,gate_E,East gates,gate,0,0,0,0,0.0,normal
+68,gate_S,South gates,gate,0,0,0,0,0.0,normal
+68,gate_W,West gates,gate,0,0,0,0,0.0,normal
+68,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+68,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+68,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+68,station_platform,Expo Park/USC platform,transit,1651,0,0,0,1.38,normal
+68,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+68,parking_exit,Parking lots / Vermont Ave,road,9722,0,308,0,0.97,normal
+69,stadium,Coliseum bowl,venue,0,0,0,0,,
+69,gate_N,North gates,gate,0,0,0,0,0.0,normal
+69,gate_E,East gates,gate,0,0,0,0,0.0,normal
+69,gate_S,South gates,gate,0,0,0,0,0.0,normal
+69,gate_W,West gates,gate,0,0,0,0,0.0,normal
+69,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+69,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+69,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+69,station_platform,Expo Park/USC platform,transit,651,0,1000,0,0.54,normal
+69,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+69,parking_exit,Parking lots / Vermont Ave,road,9426,0,296,0,0.94,normal
+70,stadium,Coliseum bowl,venue,0,0,0,0,,
+70,gate_N,North gates,gate,0,0,0,0,0.0,normal
+70,gate_E,East gates,gate,0,0,0,0,0.0,normal
+70,gate_S,South gates,gate,0,0,0,0,0.0,normal
+70,gate_W,West gates,gate,0,0,0,0,0.0,normal
+70,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+70,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+70,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+70,station_platform,Expo Park/USC platform,transit,651,0,0,0,0.54,normal
+70,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+70,parking_exit,Parking lots / Vermont Ave,road,9162,0,264,0,0.92,normal
+71,stadium,Coliseum bowl,venue,0,0,0,0,,
+71,gate_N,North gates,gate,0,0,0,0,0.0,normal
+71,gate_E,East gates,gate,0,0,0,0,0.0,normal
+71,gate_S,South gates,gate,0,0,0,0,0.0,normal
+71,gate_W,West gates,gate,0,0,0,0,0.0,normal
+71,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+71,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+71,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+71,station_platform,Expo Park/USC platform,transit,651,0,0,0,0.54,normal
+71,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+71,parking_exit,Parking lots / Vermont Ave,road,8888,0,274,0,0.89,normal
+72,stadium,Coliseum bowl,venue,0,0,0,0,,
+72,gate_N,North gates,gate,0,0,0,0,0.0,normal
+72,gate_E,East gates,gate,0,0,0,0,0.0,normal
+72,gate_S,South gates,gate,0,0,0,0,0.0,normal
+72,gate_W,West gates,gate,0,0,0,0,0.0,normal
+72,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+72,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+72,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+72,station_platform,Expo Park/USC platform,transit,0,0,651,0,0.0,normal
+72,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+72,parking_exit,Parking lots / Vermont Ave,road,8576,0,312,0,0.86,normal
+73,stadium,Coliseum bowl,venue,0,0,0,0,,
+73,gate_N,North gates,gate,0,0,0,0,0.0,normal
+73,gate_E,East gates,gate,0,0,0,0,0.0,normal
+73,gate_S,South gates,gate,0,0,0,0,0.0,normal
+73,gate_W,West gates,gate,0,0,0,0,0.0,normal
+73,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+73,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+73,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+73,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+73,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+73,parking_exit,Parking lots / Vermont Ave,road,8296,0,280,0,0.83,normal
+74,stadium,Coliseum bowl,venue,0,0,0,0,,
+74,gate_N,North gates,gate,0,0,0,0,0.0,normal
+74,gate_E,East gates,gate,0,0,0,0,0.0,normal
+74,gate_S,South gates,gate,0,0,0,0,0.0,normal
+74,gate_W,West gates,gate,0,0,0,0,0.0,normal
+74,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+74,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+74,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+74,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+74,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+74,parking_exit,Parking lots / Vermont Ave,road,8018,0,279,0,0.8,normal
+75,stadium,Coliseum bowl,venue,0,0,0,0,,
+75,gate_N,North gates,gate,0,0,0,0,0.0,normal
+75,gate_E,East gates,gate,0,0,0,0,0.0,normal
+75,gate_S,South gates,gate,0,0,0,0,0.0,normal
+75,gate_W,West gates,gate,0,0,0,0,0.0,normal
+75,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+75,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+75,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+75,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+75,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+75,parking_exit,Parking lots / Vermont Ave,road,7736,0,282,0,0.77,normal
+76,stadium,Coliseum bowl,venue,0,0,0,0,,
+76,gate_N,North gates,gate,0,0,0,0,0.0,normal
+76,gate_E,East gates,gate,0,0,0,0,0.0,normal
+76,gate_S,South gates,gate,0,0,0,0,0.0,normal
+76,gate_W,West gates,gate,0,0,0,0,0.0,normal
+76,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+76,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+76,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+76,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+76,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+76,parking_exit,Parking lots / Vermont Ave,road,7408,0,328,0,0.74,normal
+77,stadium,Coliseum bowl,venue,0,0,0,0,,
+77,gate_N,North gates,gate,0,0,0,0,0.0,normal
+77,gate_E,East gates,gate,0,0,0,0,0.0,normal
+77,gate_S,South gates,gate,0,0,0,0,0.0,normal
+77,gate_W,West gates,gate,0,0,0,0,0.0,normal
+77,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+77,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+77,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+77,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+77,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+77,parking_exit,Parking lots / Vermont Ave,road,7144,0,264,0,0.71,normal
+78,stadium,Coliseum bowl,venue,0,0,0,0,,
+78,gate_N,North gates,gate,0,0,0,0,0.0,normal
+78,gate_E,East gates,gate,0,0,0,0,0.0,normal
+78,gate_S,South gates,gate,0,0,0,0,0.0,normal
+78,gate_W,West gates,gate,0,0,0,0,0.0,normal
+78,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+78,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+78,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+78,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+78,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+78,parking_exit,Parking lots / Vermont Ave,road,6860,0,284,0,0.69,normal
+79,stadium,Coliseum bowl,venue,0,0,0,0,,
+79,gate_N,North gates,gate,0,0,0,0,0.0,normal
+79,gate_E,East gates,gate,0,0,0,0,0.0,normal
+79,gate_S,South gates,gate,0,0,0,0,0.0,normal
+79,gate_W,West gates,gate,0,0,0,0,0.0,normal
+79,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+79,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+79,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+79,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+79,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+79,parking_exit,Parking lots / Vermont Ave,road,6544,0,317,0,0.65,normal
+80,stadium,Coliseum bowl,venue,0,0,0,0,,
+80,gate_N,North gates,gate,0,0,0,0,0.0,normal
+80,gate_E,East gates,gate,0,0,0,0,0.0,normal
+80,gate_S,South gates,gate,0,0,0,0,0.0,normal
+80,gate_W,West gates,gate,0,0,0,0,0.0,normal
+80,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+80,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+80,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+80,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+80,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+80,parking_exit,Parking lots / Vermont Ave,road,6248,0,296,0,0.62,normal
+81,stadium,Coliseum bowl,venue,0,0,0,0,,
+81,gate_N,North gates,gate,0,0,0,0,0.0,normal
+81,gate_E,East gates,gate,0,0,0,0,0.0,normal
+81,gate_S,South gates,gate,0,0,0,0,0.0,normal
+81,gate_W,West gates,gate,0,0,0,0,0.0,normal
+81,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+81,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+81,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+81,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+81,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+81,parking_exit,Parking lots / Vermont Ave,road,5940,0,308,0,0.59,normal
+82,stadium,Coliseum bowl,venue,0,0,0,0,,
+82,gate_N,North gates,gate,0,0,0,0,0.0,normal
+82,gate_E,East gates,gate,0,0,0,0,0.0,normal
+82,gate_S,South gates,gate,0,0,0,0,0.0,normal
+82,gate_W,West gates,gate,0,0,0,0,0.0,normal
+82,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+82,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+82,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+82,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+82,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+82,parking_exit,Parking lots / Vermont Ave,road,5620,0,320,0,0.56,normal
+83,stadium,Coliseum bowl,venue,0,0,0,0,,
+83,gate_N,North gates,gate,0,0,0,0,0.0,normal
+83,gate_E,East gates,gate,0,0,0,0,0.0,normal
+83,gate_S,South gates,gate,0,0,0,0,0.0,normal
+83,gate_W,West gates,gate,0,0,0,0,0.0,normal
+83,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+83,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+83,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+83,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+83,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+83,parking_exit,Parking lots / Vermont Ave,road,5292,0,328,0,0.53,normal
+84,stadium,Coliseum bowl,venue,0,0,0,0,,
+84,gate_N,North gates,gate,0,0,0,0,0.0,normal
+84,gate_E,East gates,gate,0,0,0,0,0.0,normal
+84,gate_S,South gates,gate,0,0,0,0,0.0,normal
+84,gate_W,West gates,gate,0,0,0,0,0.0,normal
+84,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+84,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+84,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+84,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+84,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+84,parking_exit,Parking lots / Vermont Ave,road,4980,0,312,0,0.5,normal
+85,stadium,Coliseum bowl,venue,0,0,0,0,,
+85,gate_N,North gates,gate,0,0,0,0,0.0,normal
+85,gate_E,East gates,gate,0,0,0,0,0.0,normal
+85,gate_S,South gates,gate,0,0,0,0,0.0,normal
+85,gate_W,West gates,gate,0,0,0,0,0.0,normal
+85,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+85,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+85,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+85,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+85,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+85,parking_exit,Parking lots / Vermont Ave,road,4677,0,303,0,0.47,normal
+86,stadium,Coliseum bowl,venue,0,0,0,0,,
+86,gate_N,North gates,gate,0,0,0,0,0.0,normal
+86,gate_E,East gates,gate,0,0,0,0,0.0,normal
+86,gate_S,South gates,gate,0,0,0,0,0.0,normal
+86,gate_W,West gates,gate,0,0,0,0,0.0,normal
+86,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+86,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+86,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+86,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+86,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+86,parking_exit,Parking lots / Vermont Ave,road,4383,0,295,0,0.44,normal
+87,stadium,Coliseum bowl,venue,0,0,0,0,,
+87,gate_N,North gates,gate,0,0,0,0,0.0,normal
+87,gate_E,East gates,gate,0,0,0,0,0.0,normal
+87,gate_S,South gates,gate,0,0,0,0,0.0,normal
+87,gate_W,West gates,gate,0,0,0,0,0.0,normal
+87,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+87,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+87,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+87,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+87,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+87,parking_exit,Parking lots / Vermont Ave,road,4093,0,290,0,0.41,normal
+88,stadium,Coliseum bowl,venue,0,0,0,0,,
+88,gate_N,North gates,gate,0,0,0,0,0.0,normal
+88,gate_E,East gates,gate,0,0,0,0,0.0,normal
+88,gate_S,South gates,gate,0,0,0,0,0.0,normal
+88,gate_W,West gates,gate,0,0,0,0,0.0,normal
+88,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+88,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+88,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+88,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+88,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+88,parking_exit,Parking lots / Vermont Ave,road,3794,0,299,0,0.38,normal
+89,stadium,Coliseum bowl,venue,0,0,0,0,,
+89,gate_N,North gates,gate,0,0,0,0,0.0,normal
+89,gate_E,East gates,gate,0,0,0,0,0.0,normal
+89,gate_S,South gates,gate,0,0,0,0,0.0,normal
+89,gate_W,West gates,gate,0,0,0,0,0.0,normal
+89,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+89,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+89,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+89,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+89,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+89,parking_exit,Parking lots / Vermont Ave,road,3496,0,298,0,0.35,normal
+90,stadium,Coliseum bowl,venue,0,0,0,0,,
+90,gate_N,North gates,gate,0,0,0,0,0.0,normal
+90,gate_E,East gates,gate,0,0,0,0,0.0,normal
+90,gate_S,South gates,gate,0,0,0,0,0.0,normal
+90,gate_W,West gates,gate,0,0,0,0,0.0,normal
+90,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+90,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+90,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+90,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+90,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+90,parking_exit,Parking lots / Vermont Ave,road,3195,0,300,0,0.32,normal
+91,stadium,Coliseum bowl,venue,0,0,0,0,,
+91,gate_N,North gates,gate,0,0,0,0,0.0,normal
+91,gate_E,East gates,gate,0,0,0,0,0.0,normal
+91,gate_S,South gates,gate,0,0,0,0,0.0,normal
+91,gate_W,West gates,gate,0,0,0,0,0.0,normal
+91,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+91,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+91,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+91,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+91,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+91,parking_exit,Parking lots / Vermont Ave,road,2886,0,309,0,0.29,normal
+92,stadium,Coliseum bowl,venue,0,0,0,0,,
+92,gate_N,North gates,gate,0,0,0,0,0.0,normal
+92,gate_E,East gates,gate,0,0,0,0,0.0,normal
+92,gate_S,South gates,gate,0,0,0,0,0.0,normal
+92,gate_W,West gates,gate,0,0,0,0,0.0,normal
+92,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+92,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+92,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+92,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+92,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+92,parking_exit,Parking lots / Vermont Ave,road,2625,0,262,0,0.26,normal
+93,stadium,Coliseum bowl,venue,0,0,0,0,,
+93,gate_N,North gates,gate,0,0,0,0,0.0,normal
+93,gate_E,East gates,gate,0,0,0,0,0.0,normal
+93,gate_S,South gates,gate,0,0,0,0,0.0,normal
+93,gate_W,West gates,gate,0,0,0,0,0.0,normal
+93,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+93,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+93,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+93,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+93,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+93,parking_exit,Parking lots / Vermont Ave,road,2350,0,274,0,0.24,normal
+94,stadium,Coliseum bowl,venue,0,0,0,0,,
+94,gate_N,North gates,gate,0,0,0,0,0.0,normal
+94,gate_E,East gates,gate,0,0,0,0,0.0,normal
+94,gate_S,South gates,gate,0,0,0,0,0.0,normal
+94,gate_W,West gates,gate,0,0,0,0,0.0,normal
+94,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+94,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+94,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+94,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+94,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+94,parking_exit,Parking lots / Vermont Ave,road,2031,0,320,0,0.2,normal
+95,stadium,Coliseum bowl,venue,0,0,0,0,,
+95,gate_N,North gates,gate,0,0,0,0,0.0,normal
+95,gate_E,East gates,gate,0,0,0,0,0.0,normal
+95,gate_S,South gates,gate,0,0,0,0,0.0,normal
+95,gate_W,West gates,gate,0,0,0,0,0.0,normal
+95,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+95,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+95,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+95,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+95,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+95,parking_exit,Parking lots / Vermont Ave,road,1725,0,305,0,0.17,normal
+96,stadium,Coliseum bowl,venue,0,0,0,0,,
+96,gate_N,North gates,gate,0,0,0,0,0.0,normal
+96,gate_E,East gates,gate,0,0,0,0,0.0,normal
+96,gate_S,South gates,gate,0,0,0,0,0.0,normal
+96,gate_W,West gates,gate,0,0,0,0,0.0,normal
+96,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+96,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+96,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+96,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+96,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+96,parking_exit,Parking lots / Vermont Ave,road,1402,0,324,0,0.14,normal
+97,stadium,Coliseum bowl,venue,0,0,0,0,,
+97,gate_N,North gates,gate,0,0,0,0,0.0,normal
+97,gate_E,East gates,gate,0,0,0,0,0.0,normal
+97,gate_S,South gates,gate,0,0,0,0,0.0,normal
+97,gate_W,West gates,gate,0,0,0,0,0.0,normal
+97,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+97,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+97,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+97,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+97,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+97,parking_exit,Parking lots / Vermont Ave,road,1110,0,292,0,0.11,normal
+98,stadium,Coliseum bowl,venue,0,0,0,0,,
+98,gate_N,North gates,gate,0,0,0,0,0.0,normal
+98,gate_E,East gates,gate,0,0,0,0,0.0,normal
+98,gate_S,South gates,gate,0,0,0,0,0.0,normal
+98,gate_W,West gates,gate,0,0,0,0,0.0,normal
+98,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+98,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+98,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+98,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+98,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+98,parking_exit,Parking lots / Vermont Ave,road,843,0,267,0,0.08,normal
+99,stadium,Coliseum bowl,venue,0,0,0,0,,
+99,gate_N,North gates,gate,0,0,0,0,0.0,normal
+99,gate_E,East gates,gate,0,0,0,0,0.0,normal
+99,gate_S,South gates,gate,0,0,0,0,0.0,normal
+99,gate_W,West gates,gate,0,0,0,0,0.0,normal
+99,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+99,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+99,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+99,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+99,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+99,parking_exit,Parking lots / Vermont Ave,road,524,0,319,0,0.05,normal
+100,stadium,Coliseum bowl,venue,0,0,0,0,,
+100,gate_N,North gates,gate,0,0,0,0,0.0,normal
+100,gate_E,East gates,gate,0,0,0,0,0.0,normal
+100,gate_S,South gates,gate,0,0,0,0,0.0,normal
+100,gate_W,West gates,gate,0,0,0,0,0.0,normal
+100,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+100,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+100,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+100,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+100,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+100,parking_exit,Parking lots / Vermont Ave,road,235,0,289,0,0.02,normal
+101,stadium,Coliseum bowl,venue,0,0,0,0,,
+101,gate_N,North gates,gate,0,0,0,0,0.0,normal
+101,gate_E,East gates,gate,0,0,0,0,0.0,normal
+101,gate_S,South gates,gate,0,0,0,0,0.0,normal
+101,gate_W,West gates,gate,0,0,0,0,0.0,normal
+101,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+101,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+101,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+101,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+101,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+101,parking_exit,Parking lots / Vermont Ave,road,0,0,235,0,0.0,normal
+102,stadium,Coliseum bowl,venue,0,0,0,0,,
+102,gate_N,North gates,gate,0,0,0,0,0.0,normal
+102,gate_E,East gates,gate,0,0,0,0,0.0,normal
+102,gate_S,South gates,gate,0,0,0,0,0.0,normal
+102,gate_W,West gates,gate,0,0,0,0,0.0,normal
+102,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+102,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+102,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+102,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+102,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+102,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+103,stadium,Coliseum bowl,venue,0,0,0,0,,
+103,gate_N,North gates,gate,0,0,0,0,0.0,normal
+103,gate_E,East gates,gate,0,0,0,0,0.0,normal
+103,gate_S,South gates,gate,0,0,0,0,0.0,normal
+103,gate_W,West gates,gate,0,0,0,0,0.0,normal
+103,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+103,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+103,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+103,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+103,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+103,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+104,stadium,Coliseum bowl,venue,0,0,0,0,,
+104,gate_N,North gates,gate,0,0,0,0,0.0,normal
+104,gate_E,East gates,gate,0,0,0,0,0.0,normal
+104,gate_S,South gates,gate,0,0,0,0,0.0,normal
+104,gate_W,West gates,gate,0,0,0,0,0.0,normal
+104,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+104,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+104,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+104,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+104,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+104,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+105,stadium,Coliseum bowl,venue,0,0,0,0,,
+105,gate_N,North gates,gate,0,0,0,0,0.0,normal
+105,gate_E,East gates,gate,0,0,0,0,0.0,normal
+105,gate_S,South gates,gate,0,0,0,0,0.0,normal
+105,gate_W,West gates,gate,0,0,0,0,0.0,normal
+105,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+105,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+105,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+105,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+105,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+105,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+106,stadium,Coliseum bowl,venue,0,0,0,0,,
+106,gate_N,North gates,gate,0,0,0,0,0.0,normal
+106,gate_E,East gates,gate,0,0,0,0,0.0,normal
+106,gate_S,South gates,gate,0,0,0,0,0.0,normal
+106,gate_W,West gates,gate,0,0,0,0,0.0,normal
+106,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+106,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+106,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+106,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+106,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+106,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+107,stadium,Coliseum bowl,venue,0,0,0,0,,
+107,gate_N,North gates,gate,0,0,0,0,0.0,normal
+107,gate_E,East gates,gate,0,0,0,0,0.0,normal
+107,gate_S,South gates,gate,0,0,0,0,0.0,normal
+107,gate_W,West gates,gate,0,0,0,0,0.0,normal
+107,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+107,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+107,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+107,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+107,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+107,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+108,stadium,Coliseum bowl,venue,0,0,0,0,,
+108,gate_N,North gates,gate,0,0,0,0,0.0,normal
+108,gate_E,East gates,gate,0,0,0,0,0.0,normal
+108,gate_S,South gates,gate,0,0,0,0,0.0,normal
+108,gate_W,West gates,gate,0,0,0,0,0.0,normal
+108,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+108,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+108,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+108,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+108,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+108,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+109,stadium,Coliseum bowl,venue,0,0,0,0,,
+109,gate_N,North gates,gate,0,0,0,0,0.0,normal
+109,gate_E,East gates,gate,0,0,0,0,0.0,normal
+109,gate_S,South gates,gate,0,0,0,0,0.0,normal
+109,gate_W,West gates,gate,0,0,0,0,0.0,normal
+109,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+109,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+109,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+109,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+109,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+109,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+110,stadium,Coliseum bowl,venue,0,0,0,0,,
+110,gate_N,North gates,gate,0,0,0,0,0.0,normal
+110,gate_E,East gates,gate,0,0,0,0,0.0,normal
+110,gate_S,South gates,gate,0,0,0,0,0.0,normal
+110,gate_W,West gates,gate,0,0,0,0,0.0,normal
+110,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+110,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+110,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+110,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+110,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+110,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+111,stadium,Coliseum bowl,venue,0,0,0,0,,
+111,gate_N,North gates,gate,0,0,0,0,0.0,normal
+111,gate_E,East gates,gate,0,0,0,0,0.0,normal
+111,gate_S,South gates,gate,0,0,0,0,0.0,normal
+111,gate_W,West gates,gate,0,0,0,0,0.0,normal
+111,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+111,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+111,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+111,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+111,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+111,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+112,stadium,Coliseum bowl,venue,0,0,0,0,,
+112,gate_N,North gates,gate,0,0,0,0,0.0,normal
+112,gate_E,East gates,gate,0,0,0,0,0.0,normal
+112,gate_S,South gates,gate,0,0,0,0,0.0,normal
+112,gate_W,West gates,gate,0,0,0,0,0.0,normal
+112,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+112,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+112,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+112,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+112,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+112,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+113,stadium,Coliseum bowl,venue,0,0,0,0,,
+113,gate_N,North gates,gate,0,0,0,0,0.0,normal
+113,gate_E,East gates,gate,0,0,0,0,0.0,normal
+113,gate_S,South gates,gate,0,0,0,0,0.0,normal
+113,gate_W,West gates,gate,0,0,0,0,0.0,normal
+113,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+113,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+113,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+113,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+113,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+113,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+114,stadium,Coliseum bowl,venue,0,0,0,0,,
+114,gate_N,North gates,gate,0,0,0,0,0.0,normal
+114,gate_E,East gates,gate,0,0,0,0,0.0,normal
+114,gate_S,South gates,gate,0,0,0,0,0.0,normal
+114,gate_W,West gates,gate,0,0,0,0,0.0,normal
+114,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+114,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+114,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+114,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+114,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+114,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+115,stadium,Coliseum bowl,venue,0,0,0,0,,
+115,gate_N,North gates,gate,0,0,0,0,0.0,normal
+115,gate_E,East gates,gate,0,0,0,0,0.0,normal
+115,gate_S,South gates,gate,0,0,0,0,0.0,normal
+115,gate_W,West gates,gate,0,0,0,0,0.0,normal
+115,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+115,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+115,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+115,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+115,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+115,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+116,stadium,Coliseum bowl,venue,0,0,0,0,,
+116,gate_N,North gates,gate,0,0,0,0,0.0,normal
+116,gate_E,East gates,gate,0,0,0,0,0.0,normal
+116,gate_S,South gates,gate,0,0,0,0,0.0,normal
+116,gate_W,West gates,gate,0,0,0,0,0.0,normal
+116,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+116,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+116,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+116,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+116,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+116,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+117,stadium,Coliseum bowl,venue,0,0,0,0,,
+117,gate_N,North gates,gate,0,0,0,0,0.0,normal
+117,gate_E,East gates,gate,0,0,0,0,0.0,normal
+117,gate_S,South gates,gate,0,0,0,0,0.0,normal
+117,gate_W,West gates,gate,0,0,0,0,0.0,normal
+117,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+117,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+117,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+117,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+117,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+117,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+118,stadium,Coliseum bowl,venue,0,0,0,0,,
+118,gate_N,North gates,gate,0,0,0,0,0.0,normal
+118,gate_E,East gates,gate,0,0,0,0,0.0,normal
+118,gate_S,South gates,gate,0,0,0,0,0.0,normal
+118,gate_W,West gates,gate,0,0,0,0,0.0,normal
+118,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+118,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+118,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+118,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+118,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+118,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal
+119,stadium,Coliseum bowl,venue,0,0,0,0,,
+119,gate_N,North gates,gate,0,0,0,0,0.0,normal
+119,gate_E,East gates,gate,0,0,0,0,0.0,normal
+119,gate_S,South gates,gate,0,0,0,0,0.0,normal
+119,gate_W,West gates,gate,0,0,0,0,0.0,normal
+119,plaza_N,North plaza / Rose Garden,plaza,0,0,0,0,0.0,normal
+119,plaza_S,South plaza,plaza,0,0,0,0,0.0,normal
+119,walkway_station,Walkway to Expo Park/USC station,walkway,0,0,0,0,0.0,normal
+119,station_platform,Expo Park/USC platform,transit,0,0,0,0,0.0,normal
+119,shuttle_stop,Shuttle bus loading,transit,0,0,0,0,0.0,normal
+119,parking_exit,Parking lots / Vermont Ave,road,0,0,0,0,0.0,normal

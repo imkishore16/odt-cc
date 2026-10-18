@@ -1,0 +1,20 @@
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Rendered frames and videos (regenerate with render_all.sh)
+renders/
+
+# Logs
+*.log
+
+# Runtime state written by the brain service (recreated on start)
+data/audit_log.jsonl
+data/agent_cache_live.json
+data/agent_cache_custom.json
+data/agent_cache_planned.json
+usd/twin_live.usda
+usd/layers/crowd_live.usda

@@ -1,0 +1,10 @@
+# pip install --extra-index-url=https://pypi.nvidia.com -r requirements.txt
+cudf-cu13==26.10.0
+fastapi==0.143.2
+numpy==2.4.6
+openai==3.31.0
+pandas==3.0.6
+scikit-learn==1.9.1
+usd-core==26.8
+uvicorn==0.54.0
+xgboost==3.4.1

@@ -1,0 +1,27 @@
+{
+  "_comment": "Mock response for POST /approve {\"plan\": {...}, \"minute\": 3}. Use this while the server is not running.",
+  "minute": 3,
+  "plan": {
+    "stadium_release_per_min": 800,
+    "train_interval_min": 2,
+    "east_to_south_share": 0.2
+  },
+  "score": {
+    "dangerous_zone_minutes": 0,
+    "zones_ever_dangerous": 0,
+    "peak_density": 1.37,
+    "peak_zone": "walkway_station",
+    "people_minutes_in_danger": 0,
+    "stadium_cleared_by_min": 81
+  },
+  "baseline_score": {
+    "dangerous_zone_minutes": 99,
+    "zones_ever_dangerous": 2,
+    "peak_density": 6.44,
+    "peak_zone": "walkway_station",
+    "people_minutes_in_danger": 89100,
+    "stadium_cleared_by_min": 28
+  },
+  "crowd_live_written": true,
+  "crowd_live_path": "usd/layers/crowd_live.usda"
+}

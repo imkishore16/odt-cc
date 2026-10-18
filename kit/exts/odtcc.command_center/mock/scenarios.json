@@ -1,0 +1,73 @@
+{
+    "current": "normal",
+    "current_title": "Normal egress",
+    "current_description": "70,000 people leave the Coliseum after the final whistle.",
+    "scenarios": [
+        {
+            "id": "normal",
+            "title": "Normal egress",
+            "description": "70,000 people leave the Coliseum after the final whistle."
+        },
+        {
+            "id": "expo_line_delay",
+            "title": "Expo Line delay",
+            "description": "E Line signal failure: no trains leave Expo Park/USC from minute 10 to minute 25."
+        },
+        {
+            "id": "bmo_event",
+            "title": "BMO Stadium event",
+            "description": "An event at BMO Stadium lets out: about 400 extra people per minute join the station walkway from minute 15 to minute 35."
+        },
+        {
+            "id": "sensor_outage",
+            "title": "Walkway sensor outage",
+            "description": "The Bluetooth counters on the station walkway stop reporting from minute 5. The crowd itself is the same as normal egress."
+        }
+    ],
+    "zones": [
+        {
+            "id": "gate_N",
+            "label": "North gates"
+        },
+        {
+            "id": "gate_E",
+            "label": "East gates"
+        },
+        {
+            "id": "gate_S",
+            "label": "South gates"
+        },
+        {
+            "id": "gate_W",
+            "label": "West gates"
+        },
+        {
+            "id": "plaza_N",
+            "label": "North plaza / Rose Garden"
+        },
+        {
+            "id": "plaza_S",
+            "label": "South plaza"
+        },
+        {
+            "id": "walkway_station",
+            "label": "Walkway to Expo Park/USC station"
+        },
+        {
+            "id": "station_platform",
+            "label": "Expo Park/USC platform"
+        },
+        {
+            "id": "shuttle_stop",
+            "label": "Shuttle bus loading"
+        },
+        {
+            "id": "parking_exit",
+            "label": "Parking lots / Vermont Ave"
+        }
+    ],
+    "inflow_limits": [
+        50,
+        1000
+    ]
+}
